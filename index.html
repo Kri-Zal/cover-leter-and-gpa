@@ -3,25 +3,52 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Nepal Tools — .com.np Cover Letter Generator & NEB GPA Calculator</title>
-<meta name="description" content="Free Nepal tools: Generate a formal .com.np domain cover letter for Mercantile Communications, and calculate your NEB Grade 12 GPA for Science & Management streams. No signup required.">
-<meta name="keywords" content="com.np cover letter generator, np domain registration Nepal, mercantile communications cover letter, NEB GPA calculator, NEB grade 12, science stream GPA Nepal, management stream GPA, free Nepal tools">
+<title>Nepal Tools — Free .com.np Cover Letter Generator, NEB GPA Calculator & Certificate Maker</title>
+<meta name="description" content="Free Nepal tools: Generate a formal .com.np domain cover letter for Mercantile Communications, calculate your NEB Grade 12 GPA for Science & Management streams, and print achievement certificates. No signup required.">
+<meta name="keywords" content="com.np cover letter generator, np domain registration Nepal, mercantile communications cover letter, NEB GPA calculator, NEB grade 12, science stream GPA Nepal, management stream GPA, free Nepal tools, certificate generator Nepal, .com.np domain free, Nepal domain registration">
 <meta name="robots" content="index, follow">
+<meta name="author" content="Nepal Tools">
 <meta name="geo.region" content="NP">
-<meta name="geo.placename" content="Kathmandu">
-<meta property="og:title" content="Nepal Tools — .com.np Cover Letter & NEB GPA Calculator">
-<meta property="og:description" content="Free tools for Nepal: formal .com.np domain cover letter generator and accurate NEB Grade 12 GPA calculator for Science and Management streams.">
+<meta name="geo.placename" content="Kathmandu, Nepal">
+<meta name="language" content="English">
+<meta property="og:title" content="Nepal Tools — .com.np Cover Letter, NEB GPA Calculator & Certificate Maker">
+<meta property="og:description" content="Free tools for Nepal: formal .com.np domain cover letter generator, accurate NEB Grade 12 GPA calculator, and printable achievement certificate maker.">
 <meta property="og:type" content="website">
-<link rel="canonical" href="">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<meta property="og:url" content="https://nepaltools.com.np/">
+<meta property="og:image" content="https://nepaltools.com.np/preview.png">
+<meta property="og:locale" content="en_NP">
+<meta property="og:site_name" content="Nepal Tools">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Nepal Tools — Free .com.np Cover Letter & NEB GPA Calculator">
+<meta name="twitter:description" content="Free tools for Nepal: formal .com.np domain cover letter generator and NEB Grade 12 GPA calculator.">
+<meta name="twitter:image" content="https://nepaltools.com.np/preview.png">
+<link rel="canonical" href="https://nepaltools.com.np/">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Nepal Tools",
+  "url": "https://nepaltools.com.np/",
+  "description": "Free Nepal tools: .com.np domain cover letter generator, NEB Grade 12 GPA calculator, and certificate maker.",
+  "applicationCategory": "UtilitiesApplication",
+  "operatingSystem": "Any",
+  "offers": {"@type": "Offer", "price": "0", "priceCurrency": "NPR"},
+  "provider": {"@type": "Organization", "name": "Nepal Tools", "url": "https://nepaltools.com.np/"},
+  "featureList": [".com.np domain cover letter generator", "NEB GPA calculator", "Certificate maker", "No signup required"]
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@400;500&family=Cinzel:wght@400;600;700&display=swap" rel="stylesheet">
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{
   --navy:#1a2f4e;
+  --navy2:#0f1e33;
   --crimson:#9b1c1c;
   --gold:#92650a;
   --gold-lt:#fef9ee;
+  --gold-bright:#e5c96e;
   --ink:#111827;
   --ink2:#374151;
   --muted:#6b7280;
@@ -30,217 +57,305 @@
   --bg:#f4f3ee;
   --white:#ffffff;
   --r:6px;
-  --rl:12px;
+  --rl:14px;
   --blue:#1d4ed8;
   --blue-lt:#eff6ff;
+  --green:#15803d;
+  --red:#dc2626;
 }
 html{scroll-behavior:smooth}
 body{font-family:'Lora',Georgia,serif;background:var(--bg);color:var(--ink);min-height:100vh;line-height:1.6}
 
 /* ── NAV ── */
-nav{background:var(--navy);padding:0 2rem;display:flex;align-items:stretch;position:sticky;top:0;z-index:200;box-shadow:0 2px 8px rgba(0,0,0,.25)}
+nav{background:var(--navy2);padding:0 2rem;display:flex;align-items:stretch;position:sticky;top:0;z-index:200;box-shadow:0 2px 12px rgba(0,0,0,.35);border-bottom:1px solid rgba(229,201,110,.12)}
 .nav-brand{display:flex;align-items:center;gap:.75rem;padding:.85rem 0;text-decoration:none;flex-shrink:0}
-.np-flag svg{width:22px;height:28px}
-.brand-text{color:#fff;font-family:'Playfair Display',serif;font-size:1rem;font-weight:700}
-.brand-text small{font-family:'JetBrains Mono',monospace;font-size:.6rem;display:block;color:rgba(255,255,255,.4);letter-spacing:.08em;text-transform:uppercase;margin-top:1px}
+.np-flag svg{width:22px;height:28px;filter:drop-shadow(0 1px 3px rgba(0,0,0,.4))}
+.brand-text{color:#fff;font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;line-height:1.2}
+.brand-text small{font-family:'JetBrains Mono',monospace;font-size:.58rem;display:block;color:rgba(255,255,255,.35);letter-spacing:.1em;text-transform:uppercase;margin-top:2px}
 .nav-links{display:flex;align-items:center;gap:0;margin-left:auto}
-.nav-links a{color:rgba(255,255,255,.55);text-decoration:none;font-size:.72rem;padding:.85rem .9rem;font-family:'JetBrains Mono',monospace;letter-spacing:.04em;text-transform:uppercase;border-bottom:2px solid transparent;transition:all .15s}
-.nav-links a:hover{color:#fff;border-bottom-color:rgba(255,255,255,.3)}
-.nav-links a.active{color:#fff;border-bottom-color:#e5c96e}
+.nav-links a{color:rgba(255,255,255,.5);text-decoration:none;font-size:.7rem;padding:.85rem .85rem;font-family:'JetBrains Mono',monospace;letter-spacing:.05em;text-transform:uppercase;border-bottom:2px solid transparent;transition:all .15s}
+.nav-links a:hover{color:#fff;border-bottom-color:rgba(255,255,255,.25)}
+.nav-links a.active{color:#fff;border-bottom-color:var(--gold-bright)}
 
 /* ── HERO ── */
-.hero{background:linear-gradient(135deg,var(--navy) 0%,#1e3d6b 100%);padding:3rem 2rem 2.75rem;text-align:center;position:relative;overflow:hidden}
-.hero::before{content:'';position:absolute;inset:0;background:url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='0.025'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/svg%3E")}
-.hero-badge{display:inline-flex;align-items:center;gap:6px;background:rgba(229,201,110,.13);border:1px solid rgba(229,201,110,.3);color:#e5c96e;font-family:'JetBrains Mono',monospace;font-size:.62rem;text-transform:uppercase;letter-spacing:.1em;padding:5px 14px;border-radius:20px;margin-bottom:1.1rem}
-.hero h1{font-family:'Playfair Display',serif;font-size:2.2rem;color:#fff;font-weight:700;line-height:1.25;margin-bottom:.65rem}
-.hero h1 em{color:#e5c96e;font-style:normal}
-.hero p{color:rgba(255,255,255,.6);font-size:.9rem;max-width:500px;margin:0 auto 1.75rem;line-height:1.7}
-.tool-tabs{display:inline-flex;gap:0;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);border-radius:10px;padding:4px;margin-bottom:2rem}
-.tool-tab{padding:9px 22px;font-family:'JetBrains Mono',monospace;font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;color:rgba(255,255,255,.6);cursor:pointer;border-radius:7px;transition:all .2s;border:none;background:transparent}
-.tool-tab.active{background:#fff;color:var(--navy);font-weight:500}
-.hero-stats{display:flex;justify-content:center;gap:2.5rem;flex-wrap:wrap}
-.stat strong{display:block;font-family:'Playfair Display',serif;font-size:1.5rem;color:#e5c96e;font-weight:700}
-.stat span{font-size:.68rem;color:rgba(255,255,255,.45);font-family:'JetBrains Mono',monospace;text-transform:uppercase;letter-spacing:.06em}
+.hero{background:linear-gradient(160deg,var(--navy2) 0%,#1a3560 60%,#0d2440 100%);padding:3.5rem 2rem 3rem;text-align:center;position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;inset:0;background:url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='0.018'%3E%3Cpath d='M40 40L0 0h80L40 40zm0 0L0 80h80L40 40z'/%3E%3C/g%3E%3C/svg%3E")}
+.hero::after{content:'';position:absolute;bottom:0;left:0;right:0;height:60px;background:linear-gradient(transparent,var(--bg))}
+.hero-badge{display:inline-flex;align-items:center;gap:6px;background:rgba(229,201,110,.1);border:1px solid rgba(229,201,110,.25);color:var(--gold-bright);font-family:'JetBrains Mono',monospace;font-size:.6rem;text-transform:uppercase;letter-spacing:.12em;padding:5px 16px;border-radius:20px;margin-bottom:1.25rem}
+.hero h1{font-family:'Playfair Display',serif;font-size:2.5rem;color:#fff;font-weight:900;line-height:1.2;margin-bottom:.75rem;letter-spacing:-.01em}
+.hero h1 em{color:var(--gold-bright);font-style:normal}
+.hero p{color:rgba(255,255,255,.55);font-size:.92rem;max-width:520px;margin:0 auto 2rem;line-height:1.75}
+.tool-tabs{display:inline-flex;gap:0;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.13);border-radius:12px;padding:5px;margin-bottom:2.5rem}
+.tool-tab{padding:10px 20px;font-family:'JetBrains Mono',monospace;font-size:.69rem;text-transform:uppercase;letter-spacing:.07em;color:rgba(255,255,255,.5);cursor:pointer;border-radius:8px;transition:all .2s;border:none;background:transparent;display:flex;align-items:center;gap:6px}
+.tool-tab svg{width:14px;height:14px;opacity:.7}
+.tool-tab.active{background:rgba(255,255,255,.95);color:var(--navy2);font-weight:500}
+.tool-tab.active svg{opacity:1}
+.hero-stats{display:flex;justify-content:center;gap:3rem;flex-wrap:wrap;position:relative;z-index:1}
+.stat strong{display:block;font-family:'Playfair Display',serif;font-size:1.6rem;color:var(--gold-bright);font-weight:700}
+.stat span{font-size:.64rem;color:rgba(255,255,255,.4);font-family:'JetBrains Mono',monospace;text-transform:uppercase;letter-spacing:.08em}
 
 /* ── TOOL PANELS ── */
-.tool-panel{display:none;max-width:1200px;margin:0 auto;padding:2.5rem 1.5rem 4rem}
+.tool-panel{display:none;max-width:1200px;margin:0 auto;padding:2.5rem 1.5rem 4rem;animation:fadeUp .3s ease}
 .tool-panel.active{display:block}
-
-/* ── COVER LETTER LAYOUT ── */
-.cl-grid{display:grid;grid-template-columns:390px 1fr;gap:2rem;align-items:start}
+@keyframes fadeUp{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
 
 /* ── FORM CARD ── */
-.form-card{background:var(--white);border-radius:var(--rl);border:1px solid var(--border);overflow:hidden;position:sticky;top:68px}
-.form-card-hdr{background:var(--navy);padding:1rem 1.4rem;display:flex;align-items:center;gap:.6rem}
-.form-card-hdr h2{color:#fff;font-family:'Playfair Display',serif;font-size:.95rem;font-weight:700}
-.form-card-hdr span{margin-left:auto;background:rgba(229,201,110,.18);color:#e5c96e;font-family:'JetBrains Mono',monospace;font-size:.58rem;text-transform:uppercase;letter-spacing:.08em;padding:3px 9px;border-radius:20px}
+.cl-grid{display:grid;grid-template-columns:400px 1fr;gap:2rem;align-items:start}
+.form-card{background:var(--white);border-radius:var(--rl);border:1px solid var(--border);overflow:hidden;position:sticky;top:68px;box-shadow:0 4px 20px rgba(0,0,0,.06)}
+.form-card-hdr{background:linear-gradient(135deg,var(--navy2) 0%,var(--navy) 100%);padding:1.1rem 1.4rem;display:flex;align-items:center;gap:.6rem;border-bottom:2px solid var(--gold-bright)}
+.form-card-hdr h2{color:#fff;font-family:'Playfair Display',serif;font-size:1rem;font-weight:700}
+.form-card-hdr span{margin-left:auto;background:rgba(229,201,110,.15);color:var(--gold-bright);font-family:'JetBrains Mono',monospace;font-size:.58rem;text-transform:uppercase;letter-spacing:.08em;padding:3px 10px;border-radius:20px}
 .seg{display:flex;margin:1rem 1.2rem .2rem;border:1px solid var(--border);border-radius:var(--r);overflow:hidden}
 .seg input[type=radio]{display:none}
-.seg label{flex:1;text-align:center;padding:7px 4px;font-size:.73rem;font-family:'JetBrains Mono',monospace;text-transform:uppercase;letter-spacing:.05em;cursor:pointer;color:var(--muted);background:var(--bg);transition:all .15s;display:flex;align-items:center;justify-content:center;gap:5px}
+.seg label{flex:1;text-align:center;padding:8px 4px;font-size:.73rem;font-family:'JetBrains Mono',monospace;text-transform:uppercase;letter-spacing:.05em;cursor:pointer;color:var(--muted);background:var(--bg);transition:all .15s;display:flex;align-items:center;justify-content:center;gap:5px}
 .seg input:checked+label{background:var(--navy);color:#fff}
-.fsec{padding:.55rem 1.2rem 0;font-family:'JetBrains Mono',monospace;font-size:.6rem;text-transform:uppercase;letter-spacing:.1em;color:var(--faint);border-top:1px solid var(--border);margin-top:.4rem}
+.fsec{padding:.6rem 1.2rem 0;font-family:'JetBrains Mono',monospace;font-size:.58rem;text-transform:uppercase;letter-spacing:.12em;color:var(--faint);border-top:1px solid var(--border);margin-top:.5rem}
 .fsec.first{border-top:none;margin-top:0}
 .fg{padding:.3rem 1.2rem .45rem}
-.fg label{font-size:.73rem;color:var(--ink2);display:block;margin-bottom:3px;font-family:'Lora',serif;font-weight:500}
+.fg label{font-size:.73rem;color:var(--ink2);display:block;margin-bottom:4px;font-family:'Lora',serif;font-weight:500}
 .fg label .req{color:var(--crimson)}
-.fg input,.fg select{width:100%;border:1px solid var(--border);border-radius:var(--r);padding:6px 9px;font-size:.82rem;font-family:'Lora',serif;color:var(--ink);background:var(--bg);outline:none;transition:border-color .15s,background .15s}
-.fg input:focus,.fg select:focus{border-color:var(--navy);background:var(--white)}
+.fg input,.fg select,.fg textarea{width:100%;border:1px solid var(--border);border-radius:var(--r);padding:7px 10px;font-size:.82rem;font-family:'Lora',serif;color:var(--ink);background:var(--bg);outline:none;transition:border-color .15s,background .15s,box-shadow .15s}
+.fg input:focus,.fg select:focus,.fg textarea:focus{border-color:var(--navy);background:var(--white);box-shadow:0 0 0 3px rgba(26,47,78,.08)}
+.fg input.err{border-color:var(--red);background:#fff8f8}
 .fg2{display:grid;grid-template-columns:1fr 1fr;gap:.5rem}
-.ns-help{margin:.2rem 1.2rem .4rem;background:var(--gold-lt);border-left:3px solid #d97706;border-radius:0 var(--r) var(--r) 0;padding:6px 9px;font-size:.7rem;color:var(--gold);line-height:1.55}
-.ns-help code{font-family:'JetBrains Mono',monospace;font-size:.66rem}
-.gen-btn{display:block;width:calc(100% - 2.4rem);margin:.7rem 1.2rem 1.2rem;padding:10px;background:var(--crimson);color:#fff;border:none;border-radius:var(--r);font-family:'Playfair Display',serif;font-size:.92rem;font-weight:700;cursor:pointer;letter-spacing:.02em;transition:all .15s;text-align:center}
-.gen-btn:hover{background:#7f1d1d;transform:translateY(-1px)}
+.ns-help{margin:.2rem 1.2rem .5rem;background:var(--gold-lt);border-left:3px solid #d97706;border-radius:0 var(--r) var(--r) 0;padding:7px 10px;font-size:.7rem;color:var(--gold);line-height:1.6}
+.ns-help code{font-family:'JetBrains Mono',monospace;font-size:.65rem}
+.err-msg{margin:.2rem 1.2rem .4rem;background:#fff2f2;border-left:3px solid var(--red);border-radius:0 var(--r) var(--r) 0;padding:7px 10px;font-size:.72rem;color:var(--red);line-height:1.6;display:none}
+.err-msg.show{display:block}
+.gen-btn{display:block;width:calc(100% - 2.4rem);margin:.8rem 1.2rem 1.2rem;padding:11px;background:linear-gradient(135deg,var(--crimson),#7f1d1d);color:#fff;border:none;border-radius:var(--r);font-family:'Playfair Display',serif;font-size:.95rem;font-weight:700;cursor:pointer;letter-spacing:.02em;transition:all .18s;text-align:center;box-shadow:0 3px 12px rgba(155,28,28,.3)}
+.gen-btn:hover{background:linear-gradient(135deg,#7f1d1d,#6b1818);transform:translateY(-1px);box-shadow:0 5px 16px rgba(155,28,28,.4)}
 
 /* ── PREVIEW ── */
 .preview-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:1rem}
 .preview-label{font-family:'JetBrains Mono',monospace;font-size:.63rem;text-transform:uppercase;letter-spacing:.1em;color:var(--muted)}
-.dl-btn{display:none;align-items:center;gap:7px;padding:8px 18px;background:var(--navy);color:#fff;border:none;border-radius:var(--r);font-family:'Lora',serif;font-size:.8rem;font-weight:500;cursor:pointer;transition:all .15s}
+.dl-btns{display:flex;gap:.5rem}
+.dl-btn{display:none;align-items:center;gap:6px;padding:8px 16px;background:var(--navy);color:#fff;border:none;border-radius:var(--r);font-family:'Lora',serif;font-size:.78rem;font-weight:500;cursor:pointer;transition:all .15s}
 .dl-btn:hover{background:var(--crimson)}
 .dl-btn.show{display:flex}
-.dl-btn svg{width:13px;height:13px;flex-shrink:0}
+.dl-btn.print-btn{background:#15803d}
+.dl-btn.print-btn:hover{background:#166534}
 .preview-shell{background:#cccbc3;border-radius:var(--rl);padding:1.75rem;min-height:500px;display:flex;align-items:flex-start;justify-content:center;overflow-x:auto}
-.empty-state{text-align:center;padding:3rem 2rem;color:var(--muted);width:100%}
-.empty-state .ei{font-size:2.5rem;margin-bottom:1rem;opacity:.3}
-.empty-state h3{font-family:'Playfair Display',serif;font-size:1rem;color:var(--ink2);margin-bottom:.4rem}
-.empty-state p{font-size:.8rem;line-height:1.65}
+.empty-state{text-align:center;padding:3.5rem 2rem;color:var(--muted);width:100%}
+.empty-state .ei{font-size:3rem;margin-bottom:1rem;opacity:.25}
+.empty-state h3{font-family:'Playfair Display',serif;font-size:1.05rem;color:var(--ink2);margin-bottom:.5rem}
+.empty-state p{font-size:.82rem;line-height:1.7}
 
-/* ── LETTER (html2canvas target) ── */
-#letter-el{width:680px;background:#fff;font-family:'Times New Roman',Times,serif;color:#000;box-shadow:0 4px 28px rgba(0,0,0,.13);flex-shrink:0}
-.l-top-bar{height:6px;background:#1a2f4e}
-.l-inner{padding:38px 50px 46px}
-.l-head{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:26px;padding-bottom:14px;border-bottom:2px solid #1a2f4e}
-.l-org{font-size:13px;font-weight:700;color:#1a2f4e;letter-spacing:.01em;margin-bottom:2px}
-.l-addr{font-size:10.5px;color:#555;line-height:1.55}
+/* ══════════════════════════════════════════
+   LETTER — Premium redesign
+═══════════════════════════════════════════ */
+#letter-el{width:700px;background:#fff;font-family:'Times New Roman',Times,serif;color:#000;box-shadow:0 6px 36px rgba(0,0,0,.16);flex-shrink:0;position:relative}
+.l-ribbon{height:7px;background:linear-gradient(90deg,#1a2f4e 0%,#9b1c1c 50%,#e5c96e 100%)}
+.l-watermark{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%) rotate(-30deg);font-family:'Cinzel',serif;font-size:72px;font-weight:700;color:rgba(26,47,78,.028);text-transform:uppercase;letter-spacing:.15em;pointer-events:none;user-select:none;white-space:nowrap}
+.l-inner{padding:38px 52px 48px;position:relative;z-index:1}
+.l-head{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:24px;padding-bottom:16px;border-bottom:2px solid #1a2f4e;position:relative}
+.l-head::after{content:'';position:absolute;bottom:-4px;left:0;right:0;height:1px;background:#e5c96e}
+.l-head-logo{display:flex;align-items:center;gap:10px}
+.l-head-logo-flag{width:20px;height:26px}
+.l-org{font-size:14px;font-weight:700;color:#1a2f4e;letter-spacing:.02em;margin-bottom:3px;font-family:'Georgia',serif}
+.l-addr{font-size:10px;color:#555;line-height:1.6;font-family:'Arial',sans-serif}
 .l-head-right{text-align:right}
-.l-ref{font-family:'Courier New',monospace;font-size:9.5px;color:#888;margin-bottom:3px}
-.l-date{font-size:11.5px;color:#333;font-weight:600}
-.l-to{font-size:11.5px;line-height:1.75;margin-bottom:20px;color:#222}
-.l-to strong{font-weight:700;display:block;margin-bottom:1px}
-.l-subj{margin-bottom:18px}
-.l-subj-line{font-size:12px;font-weight:700;color:#1a2f4e;text-transform:uppercase;letter-spacing:.04em;text-decoration:underline;text-underline-offset:3px}
-.l-sal{font-size:12px;margin-bottom:13px;color:#222}
-.l-body{font-size:12px;line-height:1.9;color:#1a1a1a;margin-bottom:10px;text-align:justify}
-.l-table{width:100%;border-collapse:collapse;margin:14px 0 16px;font-size:11px}
-.l-table th{background:#1a2f4e;color:#fff;padding:6px 9px;text-align:left;font-weight:600;letter-spacing:.03em;font-size:10.5px}
-.l-table td{padding:5px 9px;border:1px solid #d1d5db;color:#111;vertical-align:top}
+.l-ref{font-family:'Courier New',monospace;font-size:9px;color:#999;margin-bottom:4px;letter-spacing:.03em}
+.l-date{font-size:11.5px;color:#333;font-weight:600;font-family:'Georgia',serif}
+.l-badge{display:inline-block;background:#1a2f4e;color:#e5c96e;font-size:8px;font-family:'Arial',sans-serif;letter-spacing:.1em;text-transform:uppercase;padding:2px 8px;border-radius:2px;margin-top:4px}
+.l-to{font-size:11.5px;line-height:1.8;margin-bottom:18px;color:#222;font-family:'Times New Roman',serif}
+.l-to strong{font-weight:700;display:block;margin-bottom:2px;color:#1a2f4e}
+.l-subj{margin-bottom:16px;padding:8px 12px;background:#f8f9fb;border-left:4px solid #1a2f4e}
+.l-subj-line{font-size:12px;font-weight:700;color:#1a2f4e;text-transform:uppercase;letter-spacing:.05em}
+.l-sal{font-size:12px;margin-bottom:14px;color:#222}
+.l-body{font-size:12px;line-height:2;color:#1a1a1a;margin-bottom:10px;text-align:justify}
+.l-table{width:100%;border-collapse:collapse;margin:14px 0 16px;font-size:11px;box-shadow:0 1px 4px rgba(0,0,0,.08)}
+.l-table th{background:#1a2f4e;color:#fff;padding:7px 10px;text-align:left;font-weight:600;letter-spacing:.04em;font-size:10px;font-family:'Arial',sans-serif;text-transform:uppercase}
+.l-table th[colspan]{background:#0f1e33;text-align:center;font-size:11px}
+.l-table td{padding:6px 10px;border:1px solid #e0e0e0;color:#111;vertical-align:top}
 .l-table tr:nth-child(even) td{background:#f8f9fa}
-.l-table td:first-child{font-weight:600;color:#374151;width:42%;background:#f3f4f6}
+.l-table td:first-child{font-weight:600;color:#374151;width:40%;background:#f3f4f6;font-size:10.5px;font-family:'Arial',sans-serif}
 .l-table tr:nth-child(even) td:first-child{background:#eaecf0}
-.l-table .mono{font-family:'Courier New',monospace;font-size:10.5px;color:#1a2f4e}
-.l-declare{font-size:11.5px;line-height:1.85;color:#1a1a1a;margin:12px 0;padding:9px 12px;border-left:3px solid #9b1c1c;background:#fef2f2;font-style:italic}
-.l-close{font-size:12px;color:#222;margin-top:16px;margin-bottom:5px}
-.l-sig-area{display:flex;justify-content:space-between;align-items:flex-end;margin-top:24px}
-.l-sig-line{width:170px;border-bottom:1px solid #9ca3af;margin-bottom:5px;height:34px}
-.l-sig-name{font-size:12px;font-weight:700;color:#111}
-.l-sig-info{font-size:10.5px;color:#555;line-height:1.55;margin-top:2px}
-.l-sig-right{text-align:right;font-size:9.5px;color:#9ca3af;font-family:'Courier New',monospace;line-height:1.6}
-.l-footer{margin-top:24px;padding-top:9px;border-top:1px solid #e5e7eb;display:flex;justify-content:space-between;align-items:center}
-.l-footer-left{font-family:'Courier New',monospace;font-size:9px;color:#9ca3af;letter-spacing:.03em}
-.l-footer-right{display:flex;gap:3px}
-.l-dot{width:5px;height:5px;border-radius:50%}
+.l-table .mono{font-family:'Courier New',monospace;font-size:10.5px;color:#1a2f4e;font-weight:600}
+.l-declare{font-size:11.5px;line-height:1.9;color:#1a1a1a;margin:14px 0;padding:10px 14px;border-left:3px solid #9b1c1c;background:#fef2f2;font-style:italic;border-radius:0 4px 4px 0}
+.l-close{font-size:12px;color:#222;margin-top:18px;margin-bottom:5px}
+.l-sig-area{display:flex;justify-content:space-between;align-items:flex-end;margin-top:28px}
+.l-sig-line{width:180px;border-bottom:1.5px solid #9ca3af;margin-bottom:6px;height:40px;position:relative}
+.l-sig-line::before{content:'Authorized Signature';position:absolute;bottom:-16px;left:0;font-size:8px;color:#aaa;font-family:'Arial',sans-serif;letter-spacing:.05em}
+.l-sig-name{font-size:12.5px;font-weight:700;color:#111;margin-top:20px}
+.l-sig-info{font-size:10.5px;color:#555;line-height:1.6;margin-top:1px}
+.l-sig-right{text-align:right;font-size:9px;color:#bbb;font-family:'Courier New',monospace;line-height:1.65}
+.l-footer{margin-top:26px;padding-top:10px;border-top:1px solid #e5e7eb;display:flex;justify-content:space-between;align-items:center}
+.l-footer-left{font-family:'Courier New',monospace;font-size:8.5px;color:#aaa;letter-spacing:.03em}
+.l-footer-right{display:flex;gap:4px;align-items:center}
+.l-dot{width:6px;height:6px;border-radius:50%}
+
+/* ══════════════════════════════════════════
+   CERTIFICATE GENERATOR
+═══════════════════════════════════════════ */
+.cert-wrap{max-width:860px;margin:0 auto}
+.cert-hero-text{text-align:center;margin-bottom:2rem}
+.cert-hero-text h2{font-family:'Playfair Display',serif;font-size:1.8rem;color:var(--navy);margin-bottom:.5rem}
+.cert-hero-text p{color:var(--muted);font-size:.9rem;max-width:500px;margin:0 auto}
+.cert-form-card{background:var(--white);border-radius:var(--rl);border:1px solid var(--border);overflow:hidden;margin-bottom:2rem;box-shadow:0 4px 20px rgba(0,0,0,.06)}
+.cert-form-card .form-card-hdr{background:linear-gradient(135deg,#15803d,#166534)}
+.cert-type-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:.75rem;padding:1rem 1.25rem}
+.cert-type-btn{border:2px solid var(--border);border-radius:10px;padding:.9rem;text-align:center;cursor:pointer;transition:all .2s;background:var(--bg);font-family:'Lora',serif}
+.cert-type-btn:hover{border-color:var(--navy);background:var(--white)}
+.cert-type-btn.active{border-color:var(--navy);background:var(--navy);color:#fff}
+.cert-type-btn .ct-icon{font-size:1.6rem;margin-bottom:.3rem}
+.cert-type-btn .ct-name{font-size:.8rem;font-weight:600}
+.cert-type-btn .ct-sub{font-size:.68rem;color:var(--muted);margin-top:2px}
+.cert-type-btn.active .ct-sub{color:rgba(255,255,255,.6)}
+.cert-fields{padding:1rem 1.25rem;border-top:1px solid var(--border)}
+.cert-fields .fg{padding:.3rem 0 .45rem}
+.cert-gen-btn{display:block;width:100%;padding:11px;background:linear-gradient(135deg,#15803d,#166534);color:#fff;border:none;border-radius:var(--r);font-family:'Playfair Display',serif;font-size:.95rem;font-weight:700;cursor:pointer;margin:1rem 1.25rem;width:calc(100% - 2.5rem);transition:all .18s;box-shadow:0 3px 12px rgba(21,128,61,.3)}
+.cert-gen-btn:hover{background:linear-gradient(135deg,#166534,#14532d);transform:translateY(-1px)}
+.cert-preview-shell{background:#d0cfc7;border-radius:var(--rl);padding:2rem;min-height:400px;display:flex;align-items:flex-start;justify-content:center;overflow-x:auto}
+.cert-preview-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:1rem}
+.cert-dl-btns{display:flex;gap:.5rem}
+
+/* ── CERTIFICATE DESIGN ── */
+#cert-el{width:720px;min-height:510px;background:#fff;flex-shrink:0;position:relative;font-family:'Times New Roman',Times,serif;overflow:hidden}
+.cert-outer-border{position:absolute;inset:8px;border:2px solid #1a2f4e}
+.cert-inner-border{position:absolute;inset:14px;border:1px solid #e5c96e}
+.cert-corner{position:absolute;width:32px;height:32px}
+.cert-corner.tl{top:6px;left:6px;border-top:3px solid #1a2f4e;border-left:3px solid #1a2f4e}
+.cert-corner.tr{top:6px;right:6px;border-top:3px solid #1a2f4e;border-right:3px solid #1a2f4e}
+.cert-corner.bl{bottom:6px;left:6px;border-bottom:3px solid #1a2f4e;border-left:3px solid #1a2f4e}
+.cert-corner.br{bottom:6px;right:6px;border-bottom:3px solid #1a2f4e;border-right:3px solid #1a2f4e}
+.cert-bg-pattern{position:absolute;inset:0;opacity:.025;background-image:repeating-linear-gradient(45deg,#1a2f4e 0,#1a2f4e 1px,transparent 0,transparent 50%);background-size:16px 16px}
+.cert-body{position:relative;z-index:2;padding:40px 56px;text-align:center;min-height:510px;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.cert-nepal-flag{margin-bottom:8px}
+.cert-header-line{width:80px;height:2px;background:linear-gradient(90deg,transparent,#1a2f4e,transparent);margin:8px auto}
+.cert-org{font-family:'Cinzel',serif;font-size:13px;letter-spacing:.18em;color:#1a2f4e;text-transform:uppercase;margin-bottom:4px}
+.cert-title-main{font-family:'Cinzel',serif;font-size:28px;font-weight:700;color:#1a2f4e;letter-spacing:.08em;text-transform:uppercase;margin:10px 0 4px;line-height:1.1}
+.cert-title-sub{font-family:'Cinzel',serif;font-size:13px;letter-spacing:.2em;color:#9b1c1c;text-transform:uppercase;margin-bottom:16px}
+.cert-divider{display:flex;align-items:center;gap:12px;margin:10px 0 14px;width:100%}
+.cert-divider-line{flex:1;height:1px;background:linear-gradient(90deg,transparent,#1a2f4e)}
+.cert-divider-line.r{background:linear-gradient(270deg,transparent,#1a2f4e)}
+.cert-divider-ornament{color:#e5c96e;font-size:18px;flex-shrink:0}
+.cert-presented{font-size:12px;color:#555;letter-spacing:.08em;text-transform:uppercase;font-family:'Arial',sans-serif;margin-bottom:8px}
+.cert-name{font-family:'Cinzel',serif;font-size:32px;font-weight:700;color:#1a2f4e;margin-bottom:6px;line-height:1.2}
+.cert-name-line{width:320px;height:1.5px;background:linear-gradient(90deg,transparent,#1a2f4e,#e5c96e,#1a2f4e,transparent);margin:0 auto 16px}
+.cert-desc{font-size:12.5px;color:#333;line-height:1.9;max-width:500px;margin:0 auto 16px}
+.cert-desc strong{color:#1a2f4e;font-weight:700}
+.cert-issue-row{display:flex;justify-content:center;gap:40px;margin:16px 0 24px;font-size:10.5px;color:#555;font-family:'Arial',sans-serif}
+.cert-issue-item{text-align:center}
+.cert-issue-label{font-size:8.5px;text-transform:uppercase;letter-spacing:.1em;color:#aaa;margin-bottom:3px;display:block}
+.cert-issue-val{font-family:'Courier New',monospace;font-size:10.5px;color:#1a2f4e;font-weight:600}
+.cert-sig-row{display:flex;justify-content:space-around;width:100%;margin-top:8px}
+.cert-sig-block{text-align:center;width:160px}
+.cert-sig-line-draw{width:120px;height:1px;background:#1a2f4e;margin:0 auto 6px}
+.cert-sig-name-sm{font-size:10px;font-weight:700;color:#1a2f4e;letter-spacing:.04em;font-family:'Arial',sans-serif}
+.cert-sig-role{font-size:8.5px;color:#888;letter-spacing:.06em;text-transform:uppercase;font-family:'Arial',sans-serif;margin-top:2px}
+.cert-seal{width:56px;height:56px;border-radius:50%;border:2px solid #1a2f4e;display:flex;align-items:center;justify-content:center;margin:0 auto;flex-direction:column}
+.cert-seal-inner{font-family:'Cinzel',serif;font-size:7px;color:#1a2f4e;text-transform:uppercase;letter-spacing:.08em;line-height:1.4;text-align:center;font-weight:700}
+.cert-serial{font-family:'Courier New',monospace;font-size:7.5px;color:#ccc;letter-spacing:.08em;margin-top:8px}
 
 /* ── NEB GPA CALCULATOR ── */
 .neb-wrap{max-width:860px;margin:0 auto}
 .neb-hero-text{text-align:center;margin-bottom:2rem}
 .neb-hero-text h2{font-family:'Playfair Display',serif;font-size:1.8rem;color:var(--navy);margin-bottom:.5rem}
 .neb-hero-text p{color:var(--muted);font-size:.9rem}
-
-.stream-seg{display:inline-flex;background:var(--white);border:1px solid var(--border);border-radius:10px;padding:4px;margin-bottom:2rem}
+.stream-seg{display:inline-flex;background:var(--white);border:1px solid var(--border);border-radius:10px;padding:4px;margin-bottom:2rem;box-shadow:0 2px 8px rgba(0,0,0,.06)}
 .stream-seg input[type=radio]{display:none}
 .stream-seg label{padding:9px 28px;font-family:'JetBrains Mono',monospace;font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;cursor:pointer;border-radius:7px;transition:all .2s;color:var(--muted)}
 .stream-seg input:checked+label{background:var(--navy);color:#fff}
-
-.neb-card{background:var(--white);border:1px solid var(--border);border-radius:var(--rl);overflow:hidden;margin-bottom:1rem}
-.neb-card-hdr{background:var(--navy);color:#fff;padding:.7rem 1.25rem;display:flex;align-items:center;gap:.5rem;font-family:'JetBrains Mono',monospace;font-size:.68rem;text-transform:uppercase;letter-spacing:.08em}
-.neb-card-hdr span{margin-left:auto;font-size:.6rem;color:rgba(255,255,255,.5)}
+.neb-card{background:var(--white);border:1px solid var(--border);border-radius:var(--rl);overflow:hidden;margin-bottom:1rem;box-shadow:0 2px 8px rgba(0,0,0,.04)}
+.neb-card-hdr{background:linear-gradient(135deg,var(--navy2),var(--navy));color:#fff;padding:.75rem 1.25rem;display:flex;align-items:center;gap:.5rem;font-family:'JetBrains Mono',monospace;font-size:.68rem;text-transform:uppercase;letter-spacing:.08em;border-bottom:2px solid var(--gold-bright)}
+.neb-card-hdr span{margin-left:auto;font-size:.6rem;color:rgba(255,255,255,.45)}
 .neb-subjects{padding:.75rem 1.25rem}
-.neb-subject-row{display:grid;grid-template-columns:1fr 90px 90px 90px 80px;gap:.5rem;align-items:center;padding:.35rem 0;border-bottom:1px solid #f3f4f6}
+.neb-subject-row{display:grid;grid-template-columns:1fr 90px 90px 90px 80px;gap:.5rem;align-items:center;padding:.4rem 0;border-bottom:1px solid #f3f4f6}
 .neb-subject-row:last-child{border-bottom:none}
 .neb-subj-name{font-size:.82rem;color:var(--ink2);font-weight:500}
 .neb-subj-name small{display:block;font-size:.7rem;color:var(--faint);font-weight:400}
 .neb-col-head{font-family:'JetBrains Mono',monospace;font-size:.6rem;text-transform:uppercase;letter-spacing:.06em;color:var(--faint);text-align:center;padding:.2rem 0}
-.neb-input{width:100%;border:1px solid var(--border);border-radius:var(--r);padding:5px 7px;font-size:.82rem;font-family:'Lora',serif;text-align:center;color:var(--ink);background:var(--bg);outline:none;transition:border-color .15s}
-.neb-input:focus{border-color:var(--navy);background:var(--white)}
+.neb-input{width:100%;border:1px solid var(--border);border-radius:var(--r);padding:5px 7px;font-size:.82rem;font-family:'Lora',serif;text-align:center;color:var(--ink);background:var(--bg);outline:none;transition:border-color .15s,box-shadow .15s}
+.neb-input:focus{border-color:var(--navy);background:var(--white);box-shadow:0 0 0 2px rgba(26,47,78,.08)}
 .neb-input:disabled{background:#f3f4f6;color:var(--faint);cursor:not-allowed}
 .neb-grade-cell{font-family:'JetBrains Mono',monospace;font-size:.75rem;text-align:center;font-weight:600}
 .grade-Ap{color:#15803d}.grade-A{color:#16a34a}.grade-Bp{color:#1d4ed8}.grade-B{color:#2563eb}.grade-Cp{color:#d97706}.grade-C{color:#f59e0b}.grade-D{color:#dc2626}.grade-NG{color:#9ca3af}
-
-.calc-btn{display:block;width:100%;padding:12px;background:var(--blue);color:#fff;border:none;border-radius:var(--r);font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;cursor:pointer;margin-top:1.25rem;transition:all .15s;letter-spacing:.02em}
-.calc-btn:hover{background:#1e40af;transform:translateY(-1px)}
-
-.result-card{background:var(--navy);border-radius:var(--rl);padding:1.75rem;margin-top:1.5rem;display:none;color:#fff}
-.result-card.show{display:block}
+.calc-btn{display:block;width:100%;padding:12px;background:linear-gradient(135deg,var(--blue),#1e40af);color:#fff;border:none;border-radius:var(--r);font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;cursor:pointer;margin-top:1.25rem;transition:all .18s;letter-spacing:.02em;box-shadow:0 3px 12px rgba(29,78,216,.3)}
+.calc-btn:hover{background:linear-gradient(135deg,#1e40af,#1e3a8a);transform:translateY(-1px)}
+.result-card{background:linear-gradient(135deg,var(--navy2) 0%,var(--navy) 100%);border-radius:var(--rl);padding:2rem;margin-top:1.5rem;display:none;color:#fff;box-shadow:0 8px 30px rgba(26,47,78,.35)}
+.result-card.show{display:block;animation:fadeUp .3s ease}
 .result-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:1.25rem;flex-wrap:wrap;gap:1rem}
-.result-gpa{text-align:center}
-.result-gpa strong{display:block;font-family:'Playfair Display',serif;font-size:3rem;color:#e5c96e;line-height:1}
-.result-gpa span{font-family:'JetBrains Mono',monospace;font-size:.65rem;text-transform:uppercase;letter-spacing:.1em;color:rgba(255,255,255,.5);margin-top:4px;display:block}
-.result-grade-pill{padding:6px 18px;border-radius:20px;font-family:'JetBrains Mono',monospace;font-size:.72rem;text-transform:uppercase;letter-spacing:.08em;font-weight:600;background:rgba(229,201,110,.2);color:#e5c96e;border:1px solid rgba(229,201,110,.3)}
+.result-gpa strong{display:block;font-family:'Playfair Display',serif;font-size:3.2rem;color:var(--gold-bright);line-height:1}
+.result-gpa span{font-family:'JetBrains Mono',monospace;font-size:.63rem;text-transform:uppercase;letter-spacing:.12em;color:rgba(255,255,255,.45);margin-top:5px;display:block}
+.result-grade-pill{padding:7px 20px;border-radius:20px;font-family:'JetBrains Mono',monospace;font-size:.72rem;text-transform:uppercase;letter-spacing:.08em;font-weight:600;background:rgba(229,201,110,.18);color:var(--gold-bright);border:1px solid rgba(229,201,110,.3)}
 .result-table{width:100%;border-collapse:collapse;font-size:.82rem}
-.result-table th{border-bottom:1px solid rgba(255,255,255,.15);padding:6px 8px;text-align:left;font-family:'JetBrains Mono',monospace;font-size:.62rem;text-transform:uppercase;letter-spacing:.07em;color:rgba(255,255,255,.45);font-weight:400}
+.result-table th{border-bottom:1px solid rgba(255,255,255,.15);padding:6px 8px;text-align:left;font-family:'JetBrains Mono',monospace;font-size:.62rem;text-transform:uppercase;letter-spacing:.07em;color:rgba(255,255,255,.4);font-weight:400}
 .result-table td{padding:6px 8px;border-bottom:1px solid rgba(255,255,255,.07);color:rgba(255,255,255,.85)}
 .result-table td:last-child{font-family:'JetBrains Mono',monospace;font-weight:600;text-align:right}
-.result-divider{height:1px;background:rgba(255,255,255,.12);margin:1rem 0}
-.result-note{font-size:.75rem;color:rgba(255,255,255,.45);margin-top:1rem;line-height:1.6;font-style:italic}
-.reset-btn{margin-top:1rem;padding:7px 18px;background:rgba(255,255,255,.1);color:rgba(255,255,255,.7);border:1px solid rgba(255,255,255,.2);border-radius:var(--r);font-family:'Lora',serif;font-size:.8rem;cursor:pointer;transition:all .15s}
+.result-divider{height:1px;background:rgba(255,255,255,.1);margin:1rem 0}
+.result-note{font-size:.75rem;color:rgba(255,255,255,.4);margin-top:1rem;line-height:1.65;font-style:italic}
+.reset-btn{margin-top:1rem;padding:7px 18px;background:rgba(255,255,255,.1);color:rgba(255,255,255,.65);border:1px solid rgba(255,255,255,.18);border-radius:var(--r);font-family:'Lora',serif;font-size:.8rem;cursor:pointer;transition:all .15s}
 .reset-btn:hover{background:rgba(255,255,255,.18);color:#fff}
 
 /* ── SEO CONTENT ── */
 .seo-section{max-width:1200px;margin:0 auto;padding:0 1.5rem 4rem}
 .seo-divider{text-align:center;margin:2.5rem 0 1.5rem}
 .seo-divider h2{font-family:'Playfair Display',serif;font-size:1.55rem;color:var(--navy)}
-.seo-divider p{color:var(--muted);font-size:.86rem;margin-top:.4rem}
+.seo-divider p{color:var(--muted);font-size:.86rem;margin-top:.4rem;max-width:560px;margin-left:auto;margin-right:auto}
 .seo-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1.25rem;margin-bottom:2.5rem}
-.seo-card{background:var(--white);border:1px solid var(--border);border-radius:var(--rl);padding:1.4rem}
+.seo-card{background:var(--white);border:1px solid var(--border);border-radius:var(--rl);padding:1.5rem;transition:box-shadow .2s}
+.seo-card:hover{box-shadow:0 4px 16px rgba(0,0,0,.08)}
 .seo-card h3{font-family:'Playfair Display',serif;font-size:.98rem;color:var(--navy);margin-bottom:.6rem}
-.seo-card p,.seo-card li{font-size:.82rem;color:var(--ink2);line-height:1.75}
+.seo-card p,.seo-card li{font-size:.82rem;color:var(--ink2);line-height:1.8}
 .seo-card ul{padding-left:1.1rem;margin-top:.4rem}
 .seo-card li{margin-bottom:.25rem}
 .faq-sec{max-width:760px;margin:0 auto 3rem}
-.faq-item{border-bottom:1px solid var(--border);padding:.7rem 0}
+.faq-item{border-bottom:1px solid var(--border);padding:.8rem 0}
 .faq-q{font-weight:600;color:var(--navy);font-size:.88rem;margin-bottom:.3rem;cursor:pointer;display:flex;justify-content:space-between;align-items:center;user-select:none}
-.faq-q span{font-size:1.1rem;color:var(--faint);flex-shrink:0;margin-left:.5rem}
-.faq-a{font-size:.82rem;color:var(--ink2);line-height:1.75;display:none;padding-top:.2rem}
+.faq-q span{font-size:1.1rem;color:var(--faint);flex-shrink:0;margin-left:.5rem;transition:transform .2s}
+.faq-a{font-size:.82rem;color:var(--ink2);line-height:1.8;display:none;padding-top:.3rem}
 .faq-a.open{display:block}
-
-/* ── GRADING TABLE (SEO) ── */
 .grade-tbl{width:100%;border-collapse:collapse;font-size:.83rem;background:var(--white);border-radius:var(--rl);overflow:hidden;border:1px solid var(--border)}
-.grade-tbl th{background:var(--navy);color:#fff;padding:9px 12px;text-align:left;font-family:'JetBrains Mono',monospace;font-size:.68rem;text-transform:uppercase;letter-spacing:.06em;font-weight:500}
-.grade-tbl td{padding:8px 12px;border-bottom:1px solid var(--border);color:var(--ink2)}
+.grade-tbl th{background:var(--navy);color:#fff;padding:10px 13px;text-align:left;font-family:'JetBrains Mono',monospace;font-size:.68rem;text-transform:uppercase;letter-spacing:.06em;font-weight:500}
+.grade-tbl td{padding:9px 13px;border-bottom:1px solid var(--border);color:var(--ink2)}
 .grade-tbl tr:last-child td{border-bottom:none}
 .grade-tbl tr:nth-child(even) td{background:#f9fafb}
 
 /* ── FOOTER ── */
-footer{background:var(--navy);color:rgba(255,255,255,.45);text-align:center;padding:1.4rem;font-size:.72rem;font-family:'JetBrains Mono',monospace;letter-spacing:.04em}
-footer a{color:rgba(255,255,255,.35);text-decoration:none}
+footer{background:var(--navy2);color:rgba(255,255,255,.35);text-align:center;padding:1.6rem 1rem;font-size:.7rem;font-family:'JetBrains Mono',monospace;letter-spacing:.05em;border-top:1px solid rgba(229,201,110,.1)}
+footer a{color:rgba(255,255,255,.28);text-decoration:none}
+footer a:hover{color:rgba(255,255,255,.55)}
 
-@media(max-width:950px){
+/* ── PRINT STYLES ── */
+@media print{
+  nav,footer,.seo-section,.hero,.tool-tabs,.hero-stats,.tool-panel:not(.print-target),.preview-top,.cert-preview-top,.cert-form-card,.gen-btn,.cert-gen-btn,.dl-btn,.reset-btn,.calc-btn,.stream-seg{display:none!important}
+  body{background:#fff!important;margin:0;padding:0}
+  .tool-panel.print-target{display:block!important;padding:0;margin:0}
+  #letter-el,#cert-el{box-shadow:none!important;width:100%!important;max-width:100%}
+  .preview-shell,.cert-preview-shell{background:#fff!important;padding:0!important}
+  @page{margin:15mm;size:A4}
+}
+
+@media(max-width:980px){
   .cl-grid{grid-template-columns:1fr}
   .form-card{position:static}
   #letter-el{width:100%;min-width:280px}
+  #cert-el{width:100%;min-width:280px}
   .neb-subject-row{grid-template-columns:1fr 75px 75px 75px 65px;gap:.35rem}
 }
 @media(max-width:640px){
-  .hero h1{font-size:1.7rem}
+  .hero h1{font-size:1.8rem}
   .hero-stats{gap:1.5rem}
-  nav{padding:0 1rem}
-  .nav-links a{padding:.85rem .6rem;font-size:.65rem}
-  .neb-subject-row{grid-template-columns:1fr 62px 62px 62px 55px;gap:.25rem}
-  .neb-subj-name{font-size:.76rem}
-  .neb-input{font-size:.76rem;padding:4px 5px}
+  nav{padding:0 .75rem}
+  .nav-links a{padding:.85rem .55rem;font-size:.62rem}
+  .neb-subject-row{grid-template-columns:1fr 60px 60px 60px 52px;gap:.2rem}
+  .neb-subj-name{font-size:.74rem}
+  .neb-input{font-size:.74rem;padding:4px 4px}
+  .tool-tab{padding:8px 13px;font-size:.62rem}
 }
 </style>
 </head>
 <body>
 
 <!-- NAV -->
-<nav>
-  <a class="nav-brand" href="#">
-    <div class="np-flag">
+<nav aria-label="Main navigation">
+  <a class="nav-brand" href="/" aria-label="Nepal Tools Home">
+    <div class="np-flag" aria-hidden="true">
       <svg viewBox="0 0 22 28" fill="none" xmlns="http://www.w3.org/2000/svg">
         <polygon points="0,0 22,7 10,14 22,28 0,28" fill="#003087"/>
         <polygon points="1,1 20,7 9,13 20,26 1,26" fill="#DC143C"/>
-        <circle cx="8" cy="9" r="2.2" fill="white" opacity=".75"/>
-        <path d="M4.5,20 L8,16.5 L11.5,20" stroke="white" stroke-width="1.1" fill="none" opacity=".75"/>
+        <circle cx="8" cy="9" r="2.2" fill="white" opacity=".8"/>
+        <path d="M4.5,20 L8,16.5 L11.5,20" stroke="white" stroke-width="1.1" fill="none" opacity=".8"/>
       </svg>
     </div>
     <div class="brand-text">
@@ -249,56 +364,66 @@ footer a{color:rgba(255,255,255,.35);text-decoration:none}
     </div>
   </a>
   <div class="nav-links">
-    <a href="#" onclick="switchTool('cl');return false" id="nav-cl" class="active">Cover Letter</a>
-    <a href="#" onclick="switchTool('neb');return false" id="nav-neb">NEB GPA</a>
+    <a href="#" id="nav-cl" class="active" onclick="switchTool('cl');return false">Cover Letter</a>
+    <a href="#" id="nav-neb" onclick="switchTool('neb');return false">NEB GPA</a>
+    <a href="#" id="nav-cert" onclick="switchTool('cert');return false">Certificate</a>
     <a href="#how">How to Apply</a>
     <a href="#faq">FAQ</a>
   </div>
 </nav>
 
 <!-- HERO -->
-<section class="hero">
-  <div class="hero-badge">
-    <svg width="8" height="8" viewBox="0 0 8 8" fill="currentColor"><circle cx="4" cy="4" r="4"/></svg>
+<section class="hero" aria-labelledby="hero-heading">
+  <div class="hero-badge" aria-hidden="true">
+    <svg width="7" height="7" viewBox="0 0 8 8" fill="currentColor"><circle cx="4" cy="4" r="4"/></svg>
     Free Forever · No Signup Required
   </div>
-  <h1>Free Tools for <em>Nepal</em></h1>
-  <p>.com.np Domain Cover Letter Generator &amp; NEB Grade 12 GPA Calculator — accurate, formal, instant.</p>
-  <div class="tool-tabs">
-    <button class="tool-tab active" id="tab-cl" onclick="switchTool('cl')">📄 Cover Letter</button>
-    <button class="tool-tab" id="tab-neb" onclick="switchTool('neb')">🎓 NEB GPA Calc</button>
+  <h1 id="hero-heading">Free Tools for <em>Nepal</em></h1>
+  <p>Generate your .com.np domain cover letter, calculate your NEB Grade 12 GPA, and print achievement certificates — all in one place, instantly.</p>
+  <div class="tool-tabs" role="tablist" aria-label="Tool selector">
+    <button class="tool-tab active" id="tab-cl" role="tab" aria-selected="true" onclick="switchTool('cl')" aria-controls="panel-cl">
+      <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25"/></svg>
+      Cover Letter
+    </button>
+    <button class="tool-tab" id="tab-neb" role="tab" aria-selected="false" onclick="switchTool('neb')" aria-controls="panel-neb">
+      <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493"/></svg>
+      NEB GPA
+    </button>
+    <button class="tool-tab" id="tab-cert" role="tab" aria-selected="false" onclick="switchTool('cert')" aria-controls="panel-cert">
+      <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M16.5 18.75h-9m9 0a3 3 0 013 3h-15a3 3 0 013-3m9 0v-3.375c0-.621-.503-1.125-1.125-1.125h-.871M7.5 18.75v-3.375c0-.621.504-1.125 1.125-1.125h.872m5.007 0H9.497"/></svg>
+      Certificate
+    </button>
   </div>
   <div class="hero-stats">
     <div class="stat"><strong>Free</strong><span>Forever</span></div>
-    <div class="stat"><strong>&lt;200KB</strong><span>JPEG output</span></div>
+    <div class="stat"><strong>3 Tools</strong><span>One Site</span></div>
     <div class="stat"><strong>100%</strong><span>Accurate GPA</span></div>
+    <div class="stat"><strong>Instant</strong><span>PDF / Print</span></div>
   </div>
 </section>
 
 <!-- ══════════════════════════════════════════
      TOOL 1 — COVER LETTER
 ═══════════════════════════════════════════ -->
-<div class="tool-panel active" id="panel-cl">
-<div class="cl-grid tool-panel-inner">
-
-  <!-- FORM -->
+<div class="tool-panel active" id="panel-cl" role="tabpanel" aria-labelledby="tab-cl">
+<div class="cl-grid">
   <div class="form-card">
     <div class="form-card-hdr">
-      <svg width="15" height="15" fill="none" stroke="#e5c96e" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z"/></svg>
+      <svg width="15" height="15" fill="none" stroke="#e5c96e" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9Z"/></svg>
       <h2>Your Details</h2>
       <span>For Mercantile Communications</span>
     </div>
 
     <div style="padding:.7rem 1.2rem .15rem">
-      <div class="seg">
+      <div class="seg" role="group" aria-label="Applicant type">
         <input type="radio" name="atype" id="tp" value="personal" checked>
         <label for="tp">
-          <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z"/></svg>
+          <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0"/></svg>
           Personal
         </label>
         <input type="radio" name="atype" id="tc" value="company">
         <label for="tc">
-          <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3.75h.008v.008h-.008v-.008Zm0 3h.008v.008h-.008v-.008Zm0 3h.008v.008h-.008v-.008Z"/></svg>
+          <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75"/></svg>
           Organization
         </label>
       </div>
@@ -307,33 +432,34 @@ footer a{color:rgba(255,255,255,.35);text-decoration:none}
     <!-- PERSONAL FIELDS -->
     <div id="pf">
       <div class="fsec first">Applicant Information</div>
-      <div class="fg"><label>Full Name (as on citizenship) <span class="req">*</span></label><input type="text" id="p-name" placeholder="e.g. Aarav Kumar Sharma"></div>
-      <div class="fg"><label>Citizenship / Passport Number <span class="req">*</span></label><input type="text" id="p-cit" placeholder="e.g. 12-01-78-12345"></div>
-      <div class="fg"><label>Permanent Address <span class="req">*</span></label><input type="text" id="p-addr" placeholder="e.g. Kathmandu-10, Bagmati Province"></div>
+      <div class="fg"><label for="p-name">Full Name (as on citizenship) <span class="req" aria-label="required">*</span></label><input type="text" id="p-name" placeholder="e.g. Aarav Kumar Sharma" autocomplete="name"></div>
+      <div class="fg"><label for="p-cit">Citizenship / Passport Number <span class="req" aria-label="required">*</span></label><input type="text" id="p-cit" placeholder="e.g. 12-01-78-12345"></div>
+      <div class="fg"><label for="p-addr">Permanent Address <span class="req" aria-label="required">*</span></label><input type="text" id="p-addr" placeholder="e.g. Kathmandu-10, Bagmati Province" autocomplete="street-address"></div>
       <div class="fg fg2">
-        <div><label>Phone</label><input type="tel" id="p-ph" placeholder="98XXXXXXXX"></div>
-        <div><label>Email <span class="req">*</span></label><input type="email" id="p-em" placeholder="you@email.com"></div>
+        <div><label for="p-ph">Phone</label><input type="tel" id="p-ph" placeholder="98XXXXXXXX" autocomplete="tel"></div>
+        <div><label for="p-em">Email <span class="req" aria-label="required">*</span></label><input type="email" id="p-em" placeholder="you@email.com" autocomplete="email"></div>
       </div>
     </div>
 
     <!-- COMPANY FIELDS -->
     <div id="cf" style="display:none">
       <div class="fsec first">Organization Information</div>
-      <div class="fg"><label>Organization / Company Name <span class="req">*</span></label><input type="text" id="c-org" placeholder="e.g. Tech Solutions Pvt. Ltd."></div>
-      <div class="fg"><label>Company Registration Number <span class="req">*</span></label><input type="text" id="c-reg" placeholder="e.g. 123456/075/076"></div>
-      <div class="fg"><label>PAN / VAT Number</label><input type="text" id="c-pan" placeholder="e.g. 604XXXXXX"></div>
-      <div class="fg"><label>Authorized Person's Full Name <span class="req">*</span></label><input type="text" id="c-auth" placeholder="e.g. Sita Rai"></div>
-      <div class="fg"><label>Designation <span class="req">*</span></label><input type="text" id="c-des" placeholder="e.g. Managing Director"></div>
-      <div class="fg"><label>Registered Address <span class="req">*</span></label><input type="text" id="c-addr" placeholder="e.g. Thamel, Kathmandu-29"></div>
+      <div class="fg"><label for="c-org">Organization / Company Name <span class="req" aria-label="required">*</span></label><input type="text" id="c-org" placeholder="e.g. Tech Solutions Pvt. Ltd."></div>
+      <div class="fg"><label for="c-reg">Company Registration Number <span class="req" aria-label="required">*</span></label><input type="text" id="c-reg" placeholder="e.g. 123456/075/076"></div>
+      <div class="fg"><label for="c-pan">PAN / VAT Number</label><input type="text" id="c-pan" placeholder="e.g. 604XXXXXX"></div>
+      <div class="fg"><label for="c-auth">Authorized Person's Full Name <span class="req" aria-label="required">*</span></label><input type="text" id="c-auth" placeholder="e.g. Sita Rai"></div>
+      <div class="fg"><label for="c-des">Designation <span class="req" aria-label="required">*</span></label><input type="text" id="c-des" placeholder="e.g. Managing Director"></div>
+      <div class="fg"><label for="c-addr">Registered Address <span class="req" aria-label="required">*</span></label><input type="text" id="c-addr" placeholder="e.g. Thamel, Kathmandu-29"></div>
       <div class="fg fg2">
-        <div><label>Phone</label><input type="tel" id="c-ph" placeholder="01-XXXXXXX"></div>
-        <div><label>Official Email <span class="req">*</span></label><input type="email" id="c-em" placeholder="info@company.com"></div>
+        <div><label for="c-ph">Phone</label><input type="tel" id="c-ph" placeholder="01-XXXXXXX"></div>
+        <div><label for="c-em">Official Email <span class="req" aria-label="required">*</span></label><input type="email" id="c-em" placeholder="info@company.com"></div>
       </div>
     </div>
 
     <div class="fsec">Domain Details</div>
-    <div class="fg"><label>Requested Domain Name <span class="req">*</span></label><input type="text" id="dom" placeholder="e.g. yourname.com.np"></div>
-    <div class="fg"><label>Purpose of Website <span class="req">*</span></label>
+    <div class="fg"><label for="dom">Requested Domain Name <span class="req" aria-label="required">*</span></label><input type="text" id="dom" placeholder="e.g. yourname.com.np"></div>
+    <div class="fg">
+      <label for="purp">Purpose of Website <span class="req" aria-label="required">*</span></label>
       <select id="purp">
         <option value="">— Select purpose —</option>
         <option>Personal website and online portfolio</option>
@@ -347,27 +473,33 @@ footer a{color:rgba(255,255,255,.35);text-decoration:none}
     </div>
 
     <div class="fsec">Nameserver Details</div>
-    <div class="fg"><label>Primary Nameserver (NS1) <span class="req">*</span></label><input type="text" id="ns1" placeholder="ns1.yourhostingprovider.com"></div>
-    <div class="fg"><label>Secondary Nameserver (NS2) <span class="req">*</span></label><input type="text" id="ns2" placeholder="ns2.yourhostingprovider.com"></div>
-    <div class="ns-help">⚠ Get nameservers from your hosting provider's dashboard or support team.<br>Example: <code>ns1.digi-host.net</code> &amp; <code>ns2.digi-host.net</code></div>
-
-    <button class="gen-btn" onclick="buildLetter()">Generate Cover Letter →</button>
+    <div class="fg"><label for="ns1">Primary Nameserver (NS1) <span class="req" aria-label="required">*</span></label><input type="text" id="ns1" placeholder="ns1.yourhostingprovider.com"></div>
+    <div class="fg"><label for="ns2">Secondary Nameserver (NS2) <span class="req" aria-label="required">*</span></label><input type="text" id="ns2" placeholder="ns2.yourhostingprovider.com"></div>
+    <div class="ns-help">⚠ Get nameservers from your hosting provider's dashboard or support team. Example: <code>ns1.digi-host.net</code> &amp; <code>ns2.digi-host.net</code></div>
+    <div class="err-msg" id="cl-err-msg" role="alert"></div>
+    <button class="gen-btn" id="gen-cl-btn">Generate Cover Letter →</button>
   </div>
 
   <!-- PREVIEW -->
   <div>
     <div class="preview-top">
       <span class="preview-label">Letter Preview</span>
-      <button class="dl-btn" id="dlbtn" onclick="doDownload()">
-        <svg fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3"/></svg>
-        Download JPEG
-      </button>
+      <div class="dl-btns">
+        <button class="dl-btn print-btn" id="printbtn" onclick="doPrint('letter')" aria-label="Print cover letter">
+          <svg width="13" height="13" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M6.72 13.829c-.24.03-.48.062-.72.096m.72-.096a42.415 42.415 0 0110.56 0m-10.56 0L6.34 18m10.94-4.171c.24.03.48.062.72.096m-.72-.096L17.66 18m0 0 .229 2.523a1.125 1.125 0 01-1.12 1.227H7.231c-.662 0-1.18-.568-1.12-1.227L6.34 18m11.318 0h1.091A2.25 2.25 0 0021 15.75V9.456c0-1.081-.768-2.015-1.837-2.175a48.055 48.055 0 00-1.913-.247M6.34 18H5.25A2.25 2.25 0 013 15.75V9.456c0-1.081.768-2.015 1.837-2.175a48.041 48.041 0 011.913-.247m10.5 0a48.536 48.536 0 00-10.5 0m10.5 0V3.375c0-.621-.504-1.125-1.125-1.125h-8.25c-.621 0-1.125.504-1.125 1.125v3.659M18 10.5h.008v.008H18V10.5zm-3 0h.008v.008H15V10.5z"/></svg>
+          Print
+        </button>
+        <button class="dl-btn" id="dlbtn" aria-label="Download cover letter as JPEG">
+          <svg width="13" height="13" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3"/></svg>
+          Download JPEG
+        </button>
+      </div>
     </div>
     <div class="preview-shell" id="pshell">
       <div class="empty-state">
-        <div class="ei">📄</div>
+        <div class="ei" aria-hidden="true">📄</div>
         <h3>Your cover letter will appear here</h3>
-        <p>Fill in the form and click <strong>Generate Cover Letter</strong> to preview it.</p>
+        <p>Fill in the form on the left and click <strong>Generate Cover Letter</strong> to preview your formal letter.</p>
       </div>
     </div>
   </div>
@@ -377,15 +509,14 @@ footer a{color:rgba(255,255,255,.35);text-decoration:none}
 <!-- ══════════════════════════════════════════
      TOOL 2 — NEB GPA CALCULATOR
 ═══════════════════════════════════════════ -->
-<div class="tool-panel" id="panel-neb">
+<div class="tool-panel" id="panel-neb" role="tabpanel" aria-labelledby="tab-neb">
 <div class="neb-wrap">
   <div class="neb-hero-text">
     <h2>NEB Grade 12 GPA Calculator</h2>
     <p>Accurate GPA calculation for Science and Management streams using the official NEB grading system.</p>
   </div>
-
   <div style="text-align:center">
-    <div class="stream-seg">
+    <div class="stream-seg" role="group" aria-label="Stream selection">
       <input type="radio" name="stream" id="s-sci" value="science" checked>
       <label for="s-sci">⚗ Science</label>
       <input type="radio" name="stream" id="s-mgmt" value="management">
@@ -395,15 +526,13 @@ footer a{color:rgba(255,255,255,.35);text-decoration:none}
 
   <!-- SCIENCE PANEL -->
   <div id="sci-panel">
-    <!-- Subject Headers -->
     <div class="neb-card">
       <div class="neb-card-hdr">
-        <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9.75 3.104v5.714a2.25 2.25 0 0 1-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 0 1 4.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0 1 12 15a9.065 9.065 0 0 1-6.23-.693L5 14.5m14.8.8 1.402 1.402c1 1 .28 2.716-1.134 2.716H4.932c-1.413 0-2.133-1.716-1.134-2.716L5 14.5"/></svg>
+        <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9.75 3.104v5.714a2.25 2.25 0 01-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 014.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0112 15a9.065 9.065 0 01-6.23-.693L5 14.5m14.8.8 1.402 1.402c1 1 .28 2.716-1.134 2.716H4.932c-1.413 0-2.133-1.716-1.134-2.716L5 14.5"/></svg>
         Science Stream Subjects
         <span>Credit hrs in brackets</span>
       </div>
       <div class="neb-subjects">
-        <!-- column headers -->
         <div class="neb-subject-row" style="padding-top:0">
           <div></div>
           <div class="neb-col-head">Theory<br>/100</div>
@@ -411,143 +540,130 @@ footer a{color:rgba(255,255,255,.35);text-decoration:none}
           <div class="neb-col-head">Total<br>%</div>
           <div class="neb-col-head">Grade</div>
         </div>
-        <!-- Physics -->
         <div class="neb-subject-row">
           <div class="neb-subj-name">Physics <small>Credit: 5 | Theory 75, Prac 25</small></div>
-          <input class="neb-input" type="number" min="0" max="75" id="phy-t" placeholder="0–75" oninput="calcRow('phy',75,25,5)">
-          <input class="neb-input" type="number" min="0" max="25" id="phy-p" placeholder="0–25" oninput="calcRow('phy',75,25,5)">
-          <div class="neb-input" id="phy-pct" style="background:#f9fafb;cursor:default;color:var(--muted)">—</div>
-          <div class="neb-grade-cell" id="phy-gr">—</div>
+          <input class="neb-input" type="number" min="0" max="75" step="0.5" id="phy-t" placeholder="0–75" aria-label="Physics theory marks out of 75" oninput="calcRow('phy',75,25,5)">
+          <input class="neb-input" type="number" min="0" max="25" step="0.5" id="phy-p" placeholder="0–25" aria-label="Physics practical marks out of 25" oninput="calcRow('phy',75,25,5)">
+          <div class="neb-input" id="phy-pct" style="background:#f9fafb;cursor:default;color:var(--muted)" aria-live="polite">—</div>
+          <div class="neb-grade-cell" id="phy-gr" aria-live="polite">—</div>
         </div>
-        <!-- Chemistry -->
         <div class="neb-subject-row">
           <div class="neb-subj-name">Chemistry <small>Credit: 5 | Theory 75, Prac 25</small></div>
-          <input class="neb-input" type="number" min="0" max="75" id="chem-t" placeholder="0–75" oninput="calcRow('chem',75,25,5)">
-          <input class="neb-input" type="number" min="0" max="25" id="chem-p" placeholder="0–25" oninput="calcRow('chem',75,25,5)">
+          <input class="neb-input" type="number" min="0" max="75" step="0.5" id="chem-t" placeholder="0–75" aria-label="Chemistry theory marks out of 75" oninput="calcRow('chem',75,25,5)">
+          <input class="neb-input" type="number" min="0" max="25" step="0.5" id="chem-p" placeholder="0–25" aria-label="Chemistry practical marks out of 25" oninput="calcRow('chem',75,25,5)">
           <div class="neb-input" id="chem-pct" style="background:#f9fafb;cursor:default;color:var(--muted)">—</div>
           <div class="neb-grade-cell" id="chem-gr">—</div>
         </div>
-        <!-- Bio/CS toggle -->
         <div class="neb-subject-row">
           <div class="neb-subj-name">
             <label style="font-size:.7rem;color:var(--faint);font-weight:400;cursor:pointer">
-              <input type="checkbox" id="bio-cs-toggle" onchange="toggleBioCS()" style="width:auto;margin-right:4px">
+              <input type="checkbox" id="bio-cs-toggle" style="width:auto;margin-right:4px" aria-label="Switch between Biology and Computer Science">
               Switch to Computer Science
             </label>
             <span id="bio-cs-label">Biology <small>Credit: 5 | Theory 75, Prac 25</small></span>
           </div>
-          <input class="neb-input" type="number" min="0" id="bio-t" placeholder="0–75" oninput="calcBioCS()">
-          <input class="neb-input" type="number" min="0" id="bio-p" placeholder="0–25" oninput="calcBioCS()">
+          <input class="neb-input" type="number" min="0" max="75" step="0.5" id="bio-t" placeholder="0–75" aria-label="Biology theory marks" oninput="calcBioCS()">
+          <input class="neb-input" type="number" min="0" max="25" step="0.5" id="bio-p" placeholder="0–25" aria-label="Biology practical marks" oninput="calcBioCS()">
           <div class="neb-input" id="bio-pct" style="background:#f9fafb;cursor:default;color:var(--muted)">—</div>
           <div class="neb-grade-cell" id="bio-gr">—</div>
         </div>
-        <!-- Mathematics -->
         <div class="neb-subject-row">
-          <div class="neb-subj-name">Mathematics <small>Credit: 5 | Theory only</small></div>
-          <input class="neb-input" type="number" min="0" max="100" id="math-t" placeholder="0–100" oninput="calcRow('math',100,0,5)">
-          <input class="neb-input" type="number" id="math-p" disabled placeholder="N/A">
+          <div class="neb-subj-name">Mathematics <small>Credit: 5 | Theory only (100)</small></div>
+          <input class="neb-input" type="number" min="0" max="100" step="0.5" id="math-t" placeholder="0–100" aria-label="Mathematics marks out of 100" oninput="calcRow('math',100,0,5)">
+          <input class="neb-input" type="number" id="math-p" disabled placeholder="N/A" aria-label="Mathematics has no practical component">
           <div class="neb-input" id="math-pct" style="background:#f9fafb;cursor:default;color:var(--muted)">—</div>
           <div class="neb-grade-cell" id="math-gr">—</div>
         </div>
-        <!-- English -->
         <div class="neb-subject-row">
           <div class="neb-subj-name">English <small>Credit: 4 | Theory 75, Prac 25</small></div>
-          <input class="neb-input" type="number" min="0" max="75" id="eng-t" placeholder="0–75" oninput="calcRow('eng',75,25,4)">
-          <input class="neb-input" type="number" min="0" max="25" id="eng-p" placeholder="0–25" oninput="calcRow('eng',75,25,4)">
+          <input class="neb-input" type="number" min="0" max="75" step="0.5" id="eng-t" placeholder="0–75" aria-label="English theory marks" oninput="calcRow('eng',75,25,4)">
+          <input class="neb-input" type="number" min="0" max="25" step="0.5" id="eng-p" placeholder="0–25" aria-label="English practical marks" oninput="calcRow('eng',75,25,4)">
           <div class="neb-input" id="eng-pct" style="background:#f9fafb;cursor:default;color:var(--muted)">—</div>
           <div class="neb-grade-cell" id="eng-gr">—</div>
         </div>
-        <!-- Nepali -->
         <div class="neb-subject-row">
           <div class="neb-subj-name">Nepali <small>Credit: 4 | Theory 75, Prac 25</small></div>
-          <input class="neb-input" type="number" min="0" max="75" id="nep-t" placeholder="0–75" oninput="calcRow('nep',75,25,4)">
-          <input class="neb-input" type="number" min="0" max="25" id="nep-p" placeholder="0–25" oninput="calcRow('nep',75,25,4)">
+          <input class="neb-input" type="number" min="0" max="75" step="0.5" id="nep-t" placeholder="0–75" aria-label="Nepali theory marks" oninput="calcRow('nep',75,25,4)">
+          <input class="neb-input" type="number" min="0" max="25" step="0.5" id="nep-p" placeholder="0–25" aria-label="Nepali practical marks" oninput="calcRow('nep',75,25,4)">
           <div class="neb-input" id="nep-pct" style="background:#f9fafb;cursor:default;color:var(--muted)">—</div>
           <div class="neb-grade-cell" id="nep-gr">—</div>
         </div>
       </div>
     </div>
-    <button class="calc-btn" onclick="calcGPA('science')">Calculate GPA →</button>
+    <button class="calc-btn" id="sci-calc-btn">Calculate GPA →</button>
   </div>
 
   <!-- MANAGEMENT PANEL -->
   <div id="mgmt-panel" style="display:none">
     <div class="neb-card">
       <div class="neb-card-hdr">
-        <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 18.75a60.07 60.07 0 0 1 15.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 0 1 3 6h-.75m0 0v-.375c0-.621.504-1.125 1.125-1.125H20.25M2.25 6v9m18-10.5v.75c0 .414.336.75.75.75h.75m-1.5-1.5h.375c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125h-.375m1.5-1.5H21a.75.75 0 0 0-.75.75v.75m0 0H3.75m0 0h-.375a1.125 1.125 0 0 1-1.125-1.125V15m1.5 1.5v-.75A.75.75 0 0 0 3 15h-.75"/></svg>
+        <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 18.75a60.07 60.07 0 0115.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 013 6h-.75m0 0v-.375c0-.621.504-1.125 1.125-1.125H20.25M2.25 6v9m18-10.5v.75c0 .414.336.75.75.75h.75m-1.5-1.5h.375c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125h-.375m1.5-1.5H21a.75.75 0 00-.75.75v.75m0 0H3.75m0 0h-.375a1.125 1.125 0 01-1.125-1.125V15m1.5 1.5v-.75A.75.75 0 003 15h-.75"/></svg>
         Management Stream Subjects
         <span>Credit hrs in brackets</span>
       </div>
       <div class="neb-subjects">
         <div class="neb-subject-row" style="padding-top:0">
           <div></div>
-          <div class="neb-col-head">Theory<br>/100</div>
-          <div class="neb-col-head">Practical<br>/N/A</div>
+          <div class="neb-col-head">Marks<br>/100</div>
+          <div class="neb-col-head">Practical<br>N/A</div>
           <div class="neb-col-head">Total<br>%</div>
           <div class="neb-col-head">Grade</div>
         </div>
-        <!-- Accountancy -->
         <div class="neb-subject-row">
           <div class="neb-subj-name">Accountancy <small>Credit: 5 | Theory only</small></div>
-          <input class="neb-input" type="number" min="0" max="100" id="acc-t" placeholder="0–100" oninput="calcRow('acc',100,0,5)">
-          <input class="neb-input" disabled placeholder="N/A">
+          <input class="neb-input" type="number" min="0" max="100" step="0.5" id="acc-t" placeholder="0–100" aria-label="Accountancy marks" oninput="calcRow('acc',100,0,5)">
+          <input class="neb-input" disabled placeholder="N/A" aria-label="No practical">
           <div class="neb-input" id="acc-pct" style="background:#f9fafb;cursor:default;color:var(--muted)">—</div>
           <div class="neb-grade-cell" id="acc-gr">—</div>
         </div>
-        <!-- Economics -->
         <div class="neb-subject-row">
           <div class="neb-subj-name">Economics <small>Credit: 5 | Theory only</small></div>
-          <input class="neb-input" type="number" min="0" max="100" id="eco-t" placeholder="0–100" oninput="calcRow('eco',100,0,5)">
-          <input class="neb-input" disabled placeholder="N/A">
+          <input class="neb-input" type="number" min="0" max="100" step="0.5" id="eco-t" placeholder="0–100" aria-label="Economics marks" oninput="calcRow('eco',100,0,5)">
+          <input class="neb-input" disabled placeholder="N/A" aria-label="No practical">
           <div class="neb-input" id="eco-pct" style="background:#f9fafb;cursor:default;color:var(--muted)">—</div>
           <div class="neb-grade-cell" id="eco-gr">—</div>
         </div>
-        <!-- Business Studies -->
         <div class="neb-subject-row">
           <div class="neb-subj-name">Business Studies <small>Credit: 5 | Theory only</small></div>
-          <input class="neb-input" type="number" min="0" max="100" id="bst-t" placeholder="0–100" oninput="calcRow('bst',100,0,5)">
-          <input class="neb-input" disabled placeholder="N/A">
+          <input class="neb-input" type="number" min="0" max="100" step="0.5" id="bst-t" placeholder="0–100" aria-label="Business Studies marks" oninput="calcRow('bst',100,0,5)">
+          <input class="neb-input" disabled placeholder="N/A" aria-label="No practical">
           <div class="neb-input" id="bst-pct" style="background:#f9fafb;cursor:default;color:var(--muted)">—</div>
           <div class="neb-grade-cell" id="bst-gr">—</div>
         </div>
-        <!-- Optional -->
         <div class="neb-subject-row">
           <div class="neb-subj-name">
-            <select id="opt-select" onchange="updateOptLabel()" style="font-size:.75rem;border:1px solid var(--border);border-radius:4px;padding:2px 4px;font-family:'Lora',serif;color:var(--ink2);background:var(--bg);outline:none;margin-bottom:2px">
+            <select id="opt-select" aria-label="Optional subject" style="font-size:.75rem;border:1px solid var(--border);border-radius:4px;padding:2px 5px;font-family:'Lora',serif;color:var(--ink2);background:var(--bg);outline:none;margin-bottom:2px">
               <option value="math">Optional Math</option>
               <option value="hotel">Hotel Management</option>
               <option value="marketing">Marketing</option>
             </select>
             <small id="opt-label">Credit: 5 | Theory only</small>
           </div>
-          <input class="neb-input" type="number" min="0" max="100" id="opt-t" placeholder="0–100" oninput="calcRow('opt',100,0,5)">
-          <input class="neb-input" disabled placeholder="N/A">
+          <input class="neb-input" type="number" min="0" max="100" step="0.5" id="opt-t" placeholder="0–100" aria-label="Optional subject marks" oninput="calcRow('opt',100,0,5)">
+          <input class="neb-input" disabled placeholder="N/A" aria-label="No practical">
           <div class="neb-input" id="opt-pct" style="background:#f9fafb;cursor:default;color:var(--muted)">—</div>
           <div class="neb-grade-cell" id="opt-gr">—</div>
         </div>
-        <!-- English -->
         <div class="neb-subject-row">
           <div class="neb-subj-name">English <small>Credit: 4 | Theory only</small></div>
-          <input class="neb-input" type="number" min="0" max="100" id="meng-t" placeholder="0–100" oninput="calcRow('meng',100,0,4)">
-          <input class="neb-input" disabled placeholder="N/A">
+          <input class="neb-input" type="number" min="0" max="100" step="0.5" id="meng-t" placeholder="0–100" aria-label="English marks" oninput="calcRow('meng',100,0,4)">
+          <input class="neb-input" disabled placeholder="N/A" aria-label="No practical">
           <div class="neb-input" id="meng-pct" style="background:#f9fafb;cursor:default;color:var(--muted)">—</div>
           <div class="neb-grade-cell" id="meng-gr">—</div>
         </div>
-        <!-- Nepali -->
         <div class="neb-subject-row">
           <div class="neb-subj-name">Nepali <small>Credit: 4 | Theory only</small></div>
-          <input class="neb-input" type="number" min="0" max="100" id="mnep-t" placeholder="0–100" oninput="calcRow('mnep',100,0,4)">
-          <input class="neb-input" disabled placeholder="N/A">
+          <input class="neb-input" type="number" min="0" max="100" step="0.5" id="mnep-t" placeholder="0–100" aria-label="Nepali marks" oninput="calcRow('mnep',100,0,4)">
+          <input class="neb-input" disabled placeholder="N/A" aria-label="No practical">
           <div class="neb-input" id="mnep-pct" style="background:#f9fafb;cursor:default;color:var(--muted)">—</div>
           <div class="neb-grade-cell" id="mnep-gr">—</div>
         </div>
       </div>
     </div>
-    <button class="calc-btn" onclick="calcGPA('management')">Calculate GPA →</button>
+    <button class="calc-btn" id="mgmt-calc-btn">Calculate GPA →</button>
   </div>
 
-  <!-- RESULT -->
-  <div class="result-card" id="result-card">
+  <div class="result-card" id="result-card" aria-live="polite">
     <div class="result-top">
       <div class="result-gpa">
         <strong id="res-gpa">—</strong>
@@ -559,36 +675,123 @@ footer a{color:rgba(255,255,255,.35);text-decoration:none}
       </div>
       <div style="text-align:right">
         <div style="font-family:'JetBrains Mono',monospace;font-size:.65rem;color:rgba(255,255,255,.4);text-transform:uppercase;letter-spacing:.08em;margin-bottom:.3rem">Total Credits</div>
-        <div style="font-family:'Playfair Display',serif;font-size:1.6rem;color:#e5c96e" id="res-cr">—</div>
+        <div style="font-family:'Playfair Display',serif;font-size:1.6rem;color:var(--gold-bright)" id="res-cr">—</div>
       </div>
     </div>
     <div class="result-divider"></div>
     <table class="result-table" id="res-table"></table>
     <div class="result-note" id="res-note"></div>
-    <button class="reset-btn" onclick="resetGPA()">← Reset &amp; Recalculate</button>
+    <button class="reset-btn" id="reset-gpa-btn">← Reset &amp; Recalculate</button>
+  </div>
+</div>
+</div>
+
+<!-- ══════════════════════════════════════════
+     TOOL 3 — CERTIFICATE GENERATOR
+═══════════════════════════════════════════ -->
+<div class="tool-panel" id="panel-cert" role="tabpanel" aria-labelledby="tab-cert">
+<div class="cert-wrap">
+  <div class="cert-hero-text">
+    <h2>Certificate Generator</h2>
+    <p>Create and print formal achievement, participation, or completion certificates — ready to print in seconds.</p>
   </div>
 
-</div><!-- .neb-wrap -->
-</div><!-- #panel-neb -->
+  <div class="cert-form-card">
+    <div class="form-card-hdr">
+      <svg width="15" height="15" fill="none" stroke="#e5c96e" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M16.5 18.75h-9m9 0a3 3 0 013 3h-15a3 3 0 013-3m9 0v-3.375c0-.621-.503-1.125-1.125-1.125h-.871M7.5 18.75v-3.375c0-.621.504-1.125 1.125-1.125h.872m5.007 0H9.497m5.007 0a7.454 7.454 0 01-.982-3.172M9.497 14.25a7.454 7.454 0 00.981-3.172M5.25 4.236c-.982.143-1.954.317-2.916.52A6.003 6.003 0 007.73 9.728M5.25 4.236V4.5c0 2.108.966 3.99 2.48 5.228M5.25 4.236V2.721C7.456 2.41 9.71 2.25 12 2.25c2.291 0 4.545.16 6.75.47v1.516M7.73 9.728a6.726 6.726 0 002.748 1.35m8.272-6.842V4.5c0 2.108-.966 3.99-2.48 5.228m2.48-5.492a46.32 46.32 0 012.916.52 6.003 6.003 0 01-5.395 4.972m0 0a6.726 6.726 0 01-2.749 1.35m0 0a6.772 6.772 0 01-3.044 0"/></svg>
+      <h2>Certificate Details</h2>
+      <span>Print-ready output</span>
+    </div>
+
+    <!-- Certificate Type -->
+    <div style="padding:.9rem 1.25rem .2rem">
+      <p style="font-family:'JetBrains Mono',monospace;font-size:.6rem;text-transform:uppercase;letter-spacing:.1em;color:var(--faint);margin-bottom:.65rem">Certificate Type</p>
+      <div class="cert-type-grid" role="group" aria-label="Certificate type">
+        <div class="cert-type-btn active" data-type="achievement" onclick="selectCertType(this,'achievement')">
+          <div class="ct-icon" aria-hidden="true">🏆</div>
+          <div class="ct-name">Achievement</div>
+          <div class="ct-sub">Awards &amp; honors</div>
+        </div>
+        <div class="cert-type-btn" data-type="participation" onclick="selectCertType(this,'participation')">
+          <div class="ct-icon" aria-hidden="true">🤝</div>
+          <div class="ct-name">Participation</div>
+          <div class="ct-sub">Events &amp; programs</div>
+        </div>
+        <div class="cert-type-btn" data-type="completion" onclick="selectCertType(this,'completion')">
+          <div class="ct-icon" aria-hidden="true">📚</div>
+          <div class="ct-name">Completion</div>
+          <div class="ct-sub">Courses &amp; training</div>
+        </div>
+        <div class="cert-type-btn" data-type="appreciation" onclick="selectCertType(this,'appreciation')">
+          <div class="ct-icon" aria-hidden="true">⭐</div>
+          <div class="ct-name">Appreciation</div>
+          <div class="ct-sub">Recognition</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="cert-fields">
+      <div class="fg"><label for="cert-name">Recipient's Full Name <span class="req" aria-label="required">*</span></label><input type="text" id="cert-name" placeholder="e.g. Priya Sharma" autocomplete="name"></div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:.5rem">
+        <div class="fg"><label for="cert-org">Issuing Organization <span class="req" aria-label="required">*</span></label><input type="text" id="cert-org" placeholder="e.g. Nepal Youth Foundation" value="Nepal Youth Foundation"></div>
+        <div class="fg"><label for="cert-event">Event / Course Name <span class="req" aria-label="required">*</span></label><input type="text" id="cert-event" placeholder="e.g. National Science Olympiad 2081"></div>
+      </div>
+      <div class="fg"><label for="cert-desc">Achievement Description <span class="req" aria-label="required">*</span></label><input type="text" id="cert-desc" placeholder="e.g. secured First Place in the National Science Olympiad 2081, demonstrating exceptional knowledge and skill"></div>
+      <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:.5rem">
+        <div class="fg"><label for="cert-date">Date of Issuance</label><input type="text" id="cert-date" placeholder="e.g. 15 Ashad 2081"></div>
+        <div class="fg"><label for="cert-sign1">Signatory 1 Name</label><input type="text" id="cert-sign1" placeholder="e.g. Dr. Ram Prasad Bhatt" value="Dr. Ram Prasad Bhatt"></div>
+        <div class="fg"><label for="cert-sign2">Signatory 2 Name</label><input type="text" id="cert-sign2" placeholder="e.g. Maya Devi Shrestha" value="Maya Devi Shrestha"></div>
+      </div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:.5rem">
+        <div class="fg"><label for="cert-role1">Signatory 1 Title</label><input type="text" id="cert-role1" placeholder="e.g. Executive Director" value="Executive Director"></div>
+        <div class="fg"><label for="cert-role2">Signatory 2 Title</label><input type="text" id="cert-role2" placeholder="e.g. Program Coordinator" value="Program Coordinator"></div>
+      </div>
+      <div class="err-msg" id="cert-err-msg" role="alert"></div>
+    </div>
+    <button class="cert-gen-btn" id="gen-cert-btn">Generate Certificate →</button>
+  </div>
+
+  <div>
+    <div class="cert-preview-top">
+      <span class="preview-label">Certificate Preview</span>
+      <div class="cert-dl-btns">
+        <button class="dl-btn print-btn" id="cert-printbtn" onclick="doPrint('cert')" style="display:none" aria-label="Print certificate">
+          <svg width="13" height="13" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M6.72 13.829c-.24.03-.48.062-.72.096m.72-.096a42.415 42.415 0 0110.56 0m-10.56 0L6.34 18m10.94-4.171c.24.03.48.062.72.096m-.72-.096L17.66 18m0 0 .229 2.523a1.125 1.125 0 01-1.12 1.227H7.231c-.662 0-1.18-.568-1.12-1.227L6.34 18m11.318 0h1.091A2.25 2.25 0 0021 15.75V9.456c0-1.081-.768-2.015-1.837-2.175a48.055 48.055 0 00-1.913-.247M6.34 18H5.25A2.25 2.25 0 013 15.75V9.456c0-1.081.768-2.015 1.837-2.175a48.041 48.041 0 011.913-.247m10.5 0a48.536 48.536 0 00-10.5 0m10.5 0V3.375c0-.621-.504-1.125-1.125-1.125h-8.25c-.621 0-1.125.504-1.125 1.125v3.659M18 10.5h.008v.008H18V10.5zm-3 0h.008v.008H15V10.5z"/></svg>
+          Print Certificate
+        </button>
+        <button class="dl-btn" id="cert-dlbtn" style="display:none" aria-label="Download certificate as image">
+          <svg width="13" height="13" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3"/></svg>
+          Download
+        </button>
+      </div>
+    </div>
+    <div class="cert-preview-shell" id="cert-pshell">
+      <div class="empty-state">
+        <div class="ei" aria-hidden="true">🏆</div>
+        <h3>Certificate preview will appear here</h3>
+        <p>Fill in the recipient's name and details, then click <strong>Generate Certificate</strong>.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
 
 <!-- ══════════════════════════════════════════
      SEO / GUIDE CONTENT
 ═══════════════════════════════════════════ -->
 <div class="seo-section">
-
-  <!-- Cover Letter Guide -->
   <div class="seo-divider" id="how">
     <h2>How to Register a .com.np Domain in Nepal</h2>
-    <p>A step-by-step guide to the process managed by Mercantile Communications Pvt. Ltd.</p>
+    <p>A step-by-step guide to the free domain registration process managed by Mercantile Communications Pvt. Ltd.</p>
   </div>
   <div class="seo-grid">
     <div class="seo-card">
       <h3>Step 1 — Check Availability</h3>
-      <p>Visit <strong>register.com.np</strong> and search your desired domain. The name must closely match your legal name (personal) or registered company name (organization). Unrelated names are not approved.</p>
+      <p>Visit <strong>register.com.np</strong> and search for your desired domain. The name must closely match your legal name (personal) or registered company name (organization). Arbitrary or trademark names are rejected.</p>
     </div>
     <div class="seo-card">
       <h3>Step 2 — Create Account</h3>
-      <p>Register on register.com.np with your email and verify it. Use the same email in your cover letter. After verifying, proceed to the domain registration form.</p>
+      <p>Register on register.com.np with your email and verify it. Use the same email in your cover letter. After verifying, proceed to the domain registration form on the portal.</p>
     </div>
     <div class="seo-card">
       <h3>Step 3 — Prepare Documents</h3>
@@ -600,17 +803,16 @@ footer a{color:rgba(255,255,255,.35);text-decoration:none}
       </ul>
     </div>
     <div class="seo-card">
-      <h3>Step 4 — Submit & Wait</h3>
-      <p>Upload your cover letter JPEG and documents through the portal. Ensure all details match exactly. Approval typically takes <strong>1–3 working days</strong> after manual review.</p>
+      <h3>Step 4 — Submit &amp; Wait</h3>
+      <p>Upload your cover letter JPEG and documents through the portal. All details must match exactly. Approval typically takes <strong>1–3 working days</strong> after manual review by Mercantile Communications.</p>
     </div>
   </div>
 
-  <!-- NEB Grading Table -->
   <div class="seo-divider">
-    <h2>NEB Official Grading System</h2>
-    <p>Grade 12 marks to grade point conversion used by the National Examination Board, Nepal.</p>
+    <h2>NEB Official Grading System — Grade 12</h2>
+    <p>Official marks to grade point conversion used by the National Examination Board (NEB), Nepal.</p>
   </div>
-  <div style="max-width:680px;margin:0 auto 2.5rem;overflow-x:auto">
+  <div style="max-width:700px;margin:0 auto 2.5rem;overflow-x:auto">
     <table class="grade-tbl">
       <thead><tr><th>Grade</th><th>Grade Point</th><th>Percentage Range</th><th>Description</th></tr></thead>
       <tbody>
@@ -624,156 +826,400 @@ footer a{color:rgba(255,255,255,.35);text-decoration:none}
         <tr><td style="font-weight:700;color:#9ca3af">NG</td><td>0.0</td><td>Below 30%</td><td>Non-Graded (Fail)</td></tr>
       </tbody>
     </table>
-    <p style="font-size:.78rem;color:var(--muted);margin-top:.75rem;text-align:center">Science: Theory 75% + Practical 25% weighted. Computer Science: 50% each. Management: Theory only (100%).</p>
+    <p style="font-size:.78rem;color:var(--muted);margin-top:.8rem;text-align:center">Science: Theory 75% + Practical 25% weighted. Computer Science: 50% each. Management: Theory only (100%).</p>
   </div>
 
-  <!-- FAQ -->
   <div class="seo-divider" id="faq">
     <h2>Frequently Asked Questions</h2>
+    <p>Everything you need to know about .com.np domains and NEB grades.</p>
   </div>
   <div class="faq-sec">
-    <div class="faq-item"><div class="faq-q" onclick="tog(this)">Is a .com.np domain really free? <span>+</span></div><div class="faq-a">Yes. Nepal's .np ccTLD domains including .com.np, .org.np, and .edu.np are provided free of charge by Mercantile Communications Pvt. Ltd. under the Nepal Telecommunications Authority. There are no registration or renewal fees.</div></div>
-    <div class="faq-item"><div class="faq-q" onclick="tog(this)">Why is a cover letter required? <span>+</span></div><div class="faq-a">Mercantile Communications uses a manual review process. The cover letter confirms your identity, shows that the domain name matches your name or organization, and documents your nameserver details. Applications without a properly formatted cover letter are frequently delayed or rejected.</div></div>
-    <div class="faq-item"><div class="faq-q" onclick="tog(this)">Can I choose any domain name I want? <span>+</span></div><div class="faq-a">No. For personal domains the name must closely reflect your legal name as shown on your identity document. For organizations it must align with your registered company name. Arbitrary names, trademarks you don't own, or names unrelated to your identity are rejected.</div></div>
-    <div class="faq-item"><div class="faq-q" onclick="tog(this)">How long does domain approval take? <span>+</span></div><div class="faq-a">Typically 1 to 3 working days. During high-volume periods it can take longer. A correct, complete cover letter and clear scanned documents significantly reduce processing time.</div></div>
-    <div class="faq-item"><div class="faq-q" onclick="tog(this)">How accurate is the NEB GPA calculator? <span>+</span></div><div class="faq-a">It uses the official NEB grading system and weighted credit-hour formula. Science subjects use a 75% theory / 25% practical split (Computer Science uses 50/50). Management subjects are 100% theory. The formula is GPA = Σ(Credit Hours × Grade Point) ÷ Total Credit Hours.</div></div>
-    <div class="faq-item"><div class="faq-q" onclick="tog(this)">What does NG mean in NEB grading? <span>+</span></div><div class="faq-a">NG (Non-Graded) means the student scored below 30% and did not meet the minimum passing threshold. It contributes 0.0 grade points to the GPA calculation. A re-examination (back exam) is required to clear the subject.</div></div>
-    <div class="faq-item"><div class="faq-q" onclick="tog(this)">Why download the cover letter as JPEG and not PDF? <span>+</span></div><div class="faq-a">Mercantile Communications' submission portal accepts image formats for cover letter uploads. A high-quality JPEG under 200KB is the most reliable format that renders clearly during manual review and fits within the portal's upload limits.</div></div>
+    <div class="faq-item">
+      <div class="faq-q" role="button" tabindex="0" aria-expanded="false" onclick="tog(this)">Is a .com.np domain really free? <span aria-hidden="true">+</span></div>
+      <div class="faq-a" role="region">Yes. Nepal's .np ccTLD domains including .com.np, .org.np, and .edu.np are provided free of charge by Mercantile Communications Pvt. Ltd. under the Nepal Telecommunications Authority. There are no registration or renewal fees currently.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q" role="button" tabindex="0" aria-expanded="false" onclick="tog(this)">Why is a cover letter required for .com.np registration? <span aria-hidden="true">+</span></div>
+      <div class="faq-a" role="region">Mercantile Communications uses a manual review process. The cover letter confirms your identity, shows the domain name matches your name or organization, and documents your nameserver details. Applications without a properly formatted cover letter are frequently delayed or rejected.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q" role="button" tabindex="0" aria-expanded="false" onclick="tog(this)">Can I choose any domain name for .com.np? <span aria-hidden="true">+</span></div>
+      <div class="faq-a" role="region">No. For personal domains the name must closely reflect your legal name as shown on your identity document. For organizations it must align with your registered company name. Arbitrary names, trademarks you don't own, or names unrelated to your identity will be rejected.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q" role="button" tabindex="0" aria-expanded="false" onclick="tog(this)">How long does .com.np domain approval take? <span aria-hidden="true">+</span></div>
+      <div class="faq-a" role="region">Typically 1 to 3 working days. During high-volume periods it can take longer. A correct, complete cover letter and clear scanned documents significantly reduce processing time.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q" role="button" tabindex="0" aria-expanded="false" onclick="tog(this)">How accurate is the NEB GPA calculator? <span aria-hidden="true">+</span></div>
+      <div class="faq-a" role="region">It uses the official NEB grading system and weighted credit-hour formula. Science subjects use a 75% theory / 25% practical split (Computer Science uses 50/50). Management subjects are 100% theory. Formula: GPA = Σ(Credit Hours × Grade Point) ÷ Total Credit Hours.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q" role="button" tabindex="0" aria-expanded="false" onclick="tog(this)">What does NG mean in NEB grading? <span aria-hidden="true">+</span></div>
+      <div class="faq-a" role="region">NG (Non-Graded) means the student scored below 30% and did not meet the minimum passing threshold. It contributes 0.0 grade points to the GPA. A re-examination (back exam) is required to clear the subject.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q" role="button" tabindex="0" aria-expanded="false" onclick="tog(this)">Why download the cover letter as JPEG and not PDF? <span aria-hidden="true">+</span></div>
+      <div class="faq-a" role="region">Mercantile Communications' submission portal accepts image formats for cover letter uploads. A high-quality JPEG under 200KB is the most reliable format that renders clearly during manual review and fits within the portal's upload limits.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q" role="button" tabindex="0" aria-expanded="false" onclick="tog(this)">Can I print certificates from Nepal Tools? <span aria-hidden="true">+</span></div>
+      <div class="faq-a" role="region">Yes! The Certificate Generator creates print-ready achievement, participation, completion, and appreciation certificates. Click the Print button to send it directly to your printer, or download as an image. Certificates include decorative borders, signatures lines, and a seal.</div>
+    </div>
   </div>
 </div>
 
 <footer>
-  &copy; 2026 Nepal Tools &nbsp;·&nbsp; Not affiliated with Mercantile Communications Pvt. Ltd. or NEB &nbsp;·&nbsp; <a href="https://register.com.np" target="_blank" rel="noopener">register.com.np</a>
+  <p>&copy; 2081 B.S. / 2024–2026 Nepal Tools &nbsp;·&nbsp; Not affiliated with Mercantile Communications Pvt. Ltd. or NEB &nbsp;·&nbsp; <a href="https://register.com.np" target="_blank" rel="noopener noreferrer">register.com.np</a> &nbsp;·&nbsp; <a href="https://neb.gov.np" target="_blank" rel="noopener noreferrer">neb.gov.np</a></p>
 </footer>
 
 <script>
-/* ══════════════ TOOL SWITCHER ══════════════ */
-function switchTool(t){
-  ['cl','neb'].forEach(id=>{
-    document.getElementById('panel-'+id).classList.toggle('active', id===t);
-    document.getElementById('tab-'+id).classList.toggle('active', id===t);
-    document.getElementById('nav-'+id).classList.toggle('active', id===t);
-  });
-  window.scrollTo({top:0,behavior:'smooth'});
+(function(){
+/* ═══════════════════════════════════════
+   HELPERS
+═══════════════════════════════════════ */
+function esc(str){
+  return String(str||'')
+    .replace(/&/g,'&amp;').replace(/</g,'&lt;')
+    .replace(/>/g,'&gt;').replace(/"/g,'&quot;')
+    .replace(/'/g,'&#39;');
+}
+function v(id){var e=document.getElementById(id);return e?e.value.trim():'';}
+function fmtDate(){
+  var d=new Date(),mo=['January','February','March','April','May','June','July','August','September','October','November','December'];
+  return d.getDate()+' '+mo[d.getMonth()]+', '+d.getFullYear();
+}
+var _ref=null;
+function getRef(){
+  if(!_ref)_ref='MCL/DOM/'+new Date().getFullYear()+'/'+(Math.floor(Math.random()*9000)+1000);
+  return _ref;
 }
 
-/* ══════════════ COVER LETTER ══════════════ */
-document.querySelectorAll('input[name="atype"]').forEach(r=>{
-  r.addEventListener('change',()=>{
-    const isCo=r.value==='company'&&r.checked;
+/* ═══════════════════════════════════════
+   TOOL SWITCHER
+═══════════════════════════════════════ */
+window.switchTool=function(t){
+  ['cl','neb','cert'].forEach(function(id){
+    document.getElementById('panel-'+id).classList.toggle('active',id===t);
+    document.getElementById('tab-'+id).classList.toggle('active',id===t);
+    document.getElementById('tab-'+id).setAttribute('aria-selected',id===t?'true':'false');
+    var nav=document.getElementById('nav-'+id);
+    if(nav)nav.classList.toggle('active',id===t);
+  });
+  window.scrollTo({top:0,behavior:'smooth'});
+};
+
+/* ═══════════════════════════════════════
+   APPLICANT TYPE TOGGLE
+═══════════════════════════════════════ */
+document.querySelectorAll('input[name="atype"]').forEach(function(r){
+  r.addEventListener('change',function(){
+    var isCo=r.value==='company'&&r.checked;
     document.getElementById('pf').style.display=isCo?'none':'block';
     document.getElementById('cf').style.display=isCo?'block':'none';
+    _ref=null; // reset ref on type change
   });
 });
 
-function v(id){const e=document.getElementById(id);return e?e.value.trim():'';}
-
-function fmtDate(){
-  const d=new Date(),mo=['January','February','March','April','May','June','July','August','September','October','November','December'];
-  return `${d.getDate()} ${mo[d.getMonth()]}, ${d.getFullYear()}`;
+/* ═══════════════════════════════════════
+   COVER LETTER VALIDATION + BUILD
+═══════════════════════════════════════ */
+function showErr(id,msg){
+  var el=document.getElementById(id);
+  el.textContent=msg;el.classList.add('show');
 }
-function refNo(){return `MCL/DOM/${new Date().getFullYear()}/${Math.floor(Math.random()*9000)+1000}`;}
+function clearErr(id){
+  var el=document.getElementById(id);
+  el.textContent='';el.classList.remove('show');
+}
+
+function validateCL(){
+  var isOrg=document.querySelector('input[name="atype"]:checked').value==='company';
+  var errors=[];
+  if(!isOrg){
+    if(!v('p-name'))errors.push('Full Name is required.');
+    if(!v('p-cit'))errors.push('Citizenship / Passport Number is required.');
+    if(!v('p-addr'))errors.push('Permanent Address is required.');
+    if(!v('p-em'))errors.push('Email address is required.');
+  } else {
+    if(!v('c-org'))errors.push('Organization Name is required.');
+    if(!v('c-reg'))errors.push('Company Registration Number is required.');
+    if(!v('c-auth'))errors.push('Authorized Person Name is required.');
+    if(!v('c-des'))errors.push('Designation is required.');
+    if(!v('c-addr'))errors.push('Registered Address is required.');
+    if(!v('c-em'))errors.push('Official Email is required.');
+  }
+  if(!v('dom'))errors.push('Domain Name is required.');
+  if(!v('purp'))errors.push('Purpose of Website is required.');
+  if(!v('ns1'))errors.push('Primary Nameserver (NS1) is required.');
+  if(!v('ns2'))errors.push('Secondary Nameserver (NS2) is required.');
+  return errors;
+}
+
+document.getElementById('gen-cl-btn').addEventListener('click',function(){
+  clearErr('cl-err-msg');
+  var errs=validateCL();
+  if(errs.length){showErr('cl-err-msg','Please fix: '+errs.join(' '));return;}
+  buildLetter();
+});
 
 function buildLetter(){
-  const isOrg=document.querySelector('input[name="atype"]:checked').value==='company';
-  const domain=v('dom')||'[domain-name].com.np';
-  const purp=v('purp')||'personal website';
-  const ns1=v('ns1')||'[primary nameserver]';
-  const ns2=v('ns2')||'[secondary nameserver]';
-  const ref=refNo(), date=fmtDate();
-  let fromName,fromAddr,fromPhone,fromEmail,idLabel,idVal,bodyP1,bodyP2,sigHTML,lhSub;
+  var isOrg=document.querySelector('input[name="atype"]:checked').value==='company';
+  var domain=esc(v('dom')||'[domain-name].com.np');
+  var purp=esc(v('purp')||'personal website');
+  var ns1=esc(v('ns1')||'[primary nameserver]');
+  var ns2=esc(v('ns2')||'[secondary nameserver]');
+  var ref=getRef(), date=fmtDate();
+  var fromName,fromAddr,fromPhone,fromEmail,idLabel,idVal,bodyP1,bodyP2,sigHTML,lhSub;
 
   if(!isOrg){
-    fromName=v('p-name')||'[Full Name]';
-    fromAddr=v('p-addr')||'[Address]';
-    fromPhone=v('p-ph'); fromEmail=v('p-em')||'[Email]';
-    idLabel='Citizenship / Passport No.'; idVal=v('p-cit')||'[ID No.]';
-    bodyP1=`I, <strong>${fromName}</strong>, a citizen of Nepal, hereby formally request the registration of the domain name <strong>${domain}</strong> under the .com.np country code top-level domain (ccTLD), administered by Mercantile Communications Pvt. Ltd.`;
-    bodyP2=`The domain name corresponds to my legal name as documented in my citizenship certificate (No. ${idVal}). I confirm that I am the rightful applicant and that the domain name is consistent with my identity documentation. A scanned copy of my citizenship certificate is attached herewith for your verification.`;
-    sigHTML=`<div class="l-sig-line"></div><div class="l-sig-name">${fromName}</div><div class="l-sig-info">${fromAddr}</div>${fromPhone?`<div class="l-sig-info">${fromPhone}</div>`:''}${fromEmail?`<div class="l-sig-info">${fromEmail}</div>`:''}`;
-    lhSub=`${fromAddr}${fromPhone?' | '+fromPhone:''}${fromEmail?' | '+fromEmail:''}`;
+    fromName=esc(v('p-name')||'[Full Name]');
+    fromAddr=esc(v('p-addr')||'[Address]');
+    fromPhone=esc(v('p-ph'));
+    fromEmail=esc(v('p-em')||'[Email]');
+    idLabel='Citizenship / Passport No.';
+    idVal=esc(v('p-cit')||'[ID No.]');
+    bodyP1='I, <strong>'+fromName+'</strong>, a citizen of Nepal, hereby formally request the registration of the domain name <strong>'+domain+'</strong> under the .com.np country code top-level domain (ccTLD), administered by Mercantile Communications Pvt. Ltd.';
+    bodyP2='The domain name corresponds to my legal name as documented in my citizenship certificate (No. '+idVal+'). I confirm that I am the rightful applicant and that the domain name is consistent with my identity documentation. A scanned copy of my citizenship certificate is attached herewith for your verification.';
+    sigHTML='<div class="l-sig-line"></div><div class="l-sig-name">'+fromName+'</div><div class="l-sig-info">'+fromAddr+'</div>'+(fromPhone?'<div class="l-sig-info">'+fromPhone+'</div>':'')+'<div class="l-sig-info">'+fromEmail+'</div>';
+    lhSub=fromAddr+(fromPhone?' &nbsp;|&nbsp; '+fromPhone:'')+(fromEmail?' &nbsp;|&nbsp; '+fromEmail:'');
   } else {
-    fromName=v('c-org')||'[Organization Name]';
-    const authN=v('c-auth')||'[Authorized Person]', des=v('c-des')||'[Designation]';
-    fromAddr=v('c-addr')||'[Address]'; fromPhone=v('c-ph'); fromEmail=v('c-em')||'[Email]';
-    const regNo=v('c-reg')||'[Reg. No.]', pan=v('c-pan');
-    idLabel='Company Registration No.'; idVal=regNo;
-    bodyP1=`We, on behalf of <strong>${fromName}</strong>, a duly registered organization in Nepal (Reg. No. ${regNo}${pan?', PAN: '+pan:''}), hereby formally request the registration of the domain name <strong>${domain}</strong> under the .com.np country code top-level domain (ccTLD), administered by Mercantile Communications Pvt. Ltd.`;
-    bodyP2=`The requested domain name corresponds directly to our organization's registered name. We confirm that this application is submitted by an authorized representative and that all information provided herein is true and accurate. Scanned copies of our company registration certificate and relevant documentation are attached herewith for your verification.`;
-    sigHTML=`<div class="l-sig-line"></div><div class="l-sig-name">${authN}</div><div class="l-sig-info">${des}</div><div class="l-sig-info">${fromName}</div>${fromPhone?`<div class="l-sig-info">${fromPhone}</div>`:''}${fromEmail?`<div class="l-sig-info">${fromEmail}</div>`:''}`;
-    lhSub=`${fromAddr}${fromPhone?' | '+fromPhone:''}${fromEmail?' | '+fromEmail:''}`;
+    fromName=esc(v('c-org')||'[Organization Name]');
+    var authN=esc(v('c-auth')||'[Authorized Person]');
+    var des=esc(v('c-des')||'[Designation]');
+    fromAddr=esc(v('c-addr')||'[Address]');
+    fromPhone=esc(v('c-ph'));
+    fromEmail=esc(v('c-em')||'[Email]');
+    var regNo=esc(v('c-reg')||'[Reg. No.]');
+    var pan=esc(v('c-pan'));
+    idLabel='Company Registration No.';
+    idVal=regNo;
+    bodyP1='We, on behalf of <strong>'+fromName+'</strong>, a duly registered organization in Nepal (Reg. No. '+regNo+(pan?', PAN: '+pan:'')+'), hereby formally request the registration of the domain name <strong>'+domain+'</strong> under the .com.np country code top-level domain (ccTLD), administered by Mercantile Communications Pvt. Ltd.';
+    bodyP2='The requested domain name corresponds directly to our organization\'s registered name. We confirm that this application is submitted by an authorized representative and that all information provided herein is true and accurate. Scanned copies of our company registration certificate and relevant documentation are attached herewith for your verification.';
+    sigHTML='<div class="l-sig-line"></div><div class="l-sig-name">'+authN+'</div><div class="l-sig-info">'+des+'</div><div class="l-sig-info">'+fromName+'</div>'+(fromPhone?'<div class="l-sig-info">'+fromPhone+'</div>':'')+'<div class="l-sig-info">'+fromEmail+'</div>';
+    lhSub=fromAddr+(fromPhone?' &nbsp;|&nbsp; '+fromPhone:'')+(fromEmail?' &nbsp;|&nbsp; '+fromEmail:'');
   }
 
-  document.getElementById('pshell').innerHTML=`<div id="letter-el">
-<div class="l-top-bar"></div>
-<div class="l-inner">
-  <div class="l-head">
-    <div class="l-head-left"><div class="l-org">${fromName}</div><div class="l-addr">${lhSub}</div></div>
-    <div class="l-head-right"><div class="l-ref">Ref: ${ref}</div><div class="l-date">Date: ${date}</div></div>
-  </div>
-  <div class="l-to"><strong>To,</strong>The Hostmaster<br>Mercantile Communications Pvt. Ltd.<br>Durbar Marg, Kathmandu, Nepal<br>Email: hostmaster@mos.com.np</div>
-  <div class="l-subj"><span class="l-subj-line">Subject: Formal Request for Registration of Domain Name — ${domain}</span></div>
-  <div class="l-sal">Dear Hostmaster,</div>
-  <p class="l-body">${bodyP1}</p>
-  <p class="l-body">${bodyP2}</p>
-  <p class="l-body">Kindly find below the complete technical and administrative details for the requested domain registration:</p>
-  <table class="l-table">
-    <tr><th colspan="2">Domain Registration Details</th></tr>
-    <tr><td>Requested Domain Name</td><td><strong>${domain}</strong></td></tr>
-    <tr><td>Domain Extension</td><td>.com.np (Nepal ccTLD)</td></tr>
-    <tr><td>Purpose of Website</td><td>${purp}</td></tr>
-    <tr><td>Primary Nameserver (NS1)</td><td class="mono">${ns1}</td></tr>
-    <tr><td>Secondary Nameserver (NS2)</td><td class="mono">${ns2}</td></tr>
-    <tr><td>${idLabel}</td><td>${idVal}</td></tr>
-    <tr><td>Applicant Name</td><td>${fromName}</td></tr>
-    <tr><td>Contact Email</td><td>${fromEmail}</td></tr>
-  </table>
-  <div class="l-declare">I/We hereby solemnly declare that all information provided in this application is true, complete, and accurate to the best of my/our knowledge. I/We understand that any false or misleading information may result in the immediate rejection or revocation of the domain registration without prior notice.</div>
-  <p class="l-body">I/We kindly request you to process this application at the earliest convenience and grant domain control panel access upon approval. Should you require any additional information or documentation, please do not hesitate to contact me/us at the details provided above.</p>
-  <p class="l-body">Thanking you for your time and cooperation.</p>
-  <div class="l-close">Yours faithfully,</div>
-  <div class="l-sig-area">
-    <div class="l-sig-left">${sigHTML}</div>
-    <div class="l-sig-right">Generated via Nepal Tools<br>register.com.np application<br>Ref: ${ref}</div>
-  </div>
-  <div class="l-footer">
-    <div class="l-footer-left">Enclosures: (1) Identity Document Scanned Copy &nbsp; (2) This Cover Letter</div>
-    <div class="l-footer-right">
-      <div class="l-dot" style="background:#1a2f4e"></div>
-      <div class="l-dot" style="background:#9b1c1c"></div>
-      <div class="l-dot" style="background:#e5c96e"></div>
-    </div>
-  </div>
-</div></div>`;
+  document.getElementById('pshell').innerHTML='<div id="letter-el">'
+    +'<div class="l-ribbon"></div>'
+    +'<div class="l-watermark">Nepal Tools</div>'
+    +'<div class="l-inner">'
+    +'<div class="l-head">'
+    +'<div class="l-head-logo">'
+    +'<svg class="l-head-logo-flag" viewBox="0 0 22 28" fill="none" xmlns="http://www.w3.org/2000/svg"><polygon points="0,0 22,7 10,14 22,28 0,28" fill="#003087"/><polygon points="1,1 20,7 9,13 20,26 1,26" fill="#DC143C"/><circle cx="8" cy="9" r="2.2" fill="white" opacity=".8"/><path d="M4.5,20 L8,16.5 L11.5,20" stroke="white" stroke-width="1.1" fill="none" opacity=".8"/></svg>'
+    +'<div><div class="l-org">'+fromName+'</div><div class="l-addr">'+lhSub+'</div></div>'
+    +'</div>'
+    +'<div class="l-head-right"><div class="l-ref">Ref: '+ref+'</div><div class="l-date">'+date+'</div><div class="l-badge">.com.np Application</div></div>'
+    +'</div>'
+    +'<div class="l-to"><strong>To,</strong>The Hostmaster<br>Mercantile Communications Pvt. Ltd.<br>Durbar Marg, Kathmandu, Nepal<br><span style="font-family:\'Courier New\',monospace;font-size:10.5px">hostmaster@mos.com.np</span></div>'
+    +'<div class="l-subj"><span class="l-subj-line">Subject: Formal Request for Registration of Domain Name &mdash; '+domain+'</span></div>'
+    +'<div class="l-sal">Dear Hostmaster,</div>'
+    +'<p class="l-body">'+bodyP1+'</p>'
+    +'<p class="l-body">'+bodyP2+'</p>'
+    +'<p class="l-body">Kindly find below the complete technical and administrative details for the requested domain registration:</p>'
+    +'<table class="l-table"><tr><th colspan="2">Domain Registration Details</th></tr>'
+    +'<tr><td>Requested Domain Name</td><td><strong style="font-family:\'Courier New\',monospace;font-size:11.5px;color:#1a2f4e">'+domain+'</strong></td></tr>'
+    +'<tr><td>Domain Extension</td><td>.com.np (Nepal ccTLD)</td></tr>'
+    +'<tr><td>Purpose of Website</td><td>'+purp+'</td></tr>'
+    +'<tr><td>Primary Nameserver (NS1)</td><td class="mono">'+ns1+'</td></tr>'
+    +'<tr><td>Secondary Nameserver (NS2)</td><td class="mono">'+ns2+'</td></tr>'
+    +'<tr><td>'+idLabel+'</td><td>'+idVal+'</td></tr>'
+    +'<tr><td>Applicant / Organization</td><td>'+fromName+'</td></tr>'
+    +'<tr><td>Contact Email</td><td><span style="font-family:\'Courier New\',monospace;font-size:10.5px">'+fromEmail+'</span></td></tr>'
+    +'</table>'
+    +'<div class="l-declare">I/We hereby solemnly declare that all information provided in this application is true, complete, and accurate to the best of my/our knowledge. I/We understand that any false or misleading information may result in the immediate rejection or revocation of the domain registration without prior notice.</div>'
+    +'<p class="l-body">I/We kindly request you to process this application at the earliest convenience and grant domain control panel access upon approval. Should you require any additional information or documentation, please do not hesitate to contact us at the details provided above.</p>'
+    +'<p class="l-body">Thanking you for your time and cooperation.</p>'
+    +'<div class="l-close">Yours faithfully,</div>'
+    +'<div class="l-sig-area">'
+    +'<div class="l-sig-left">'+sigHTML+'</div>'
+    +'<div class="l-sig-right">Generated via Nepal Tools<br>nepaltools.com.np<br>Ref: '+ref+'<br>Date: '+date+'</div>'
+    +'</div>'
+    +'<div class="l-footer">'
+    +'<div class="l-footer-left">Enclosures: (1) Identity Document &nbsp; (2) This Cover Letter</div>'
+    +'<div class="l-footer-right"><div class="l-dot" style="background:#1a2f4e"></div><div class="l-dot" style="background:#9b1c1c"></div><div class="l-dot" style="background:#e5c96e"></div></div>'
+    +'</div>'
+    +'</div></div>';
+
   document.getElementById('dlbtn').classList.add('show');
+  document.getElementById('printbtn').classList.add('show');
 }
 
-function doDownload(){
-  const el=document.getElementById('letter-el');
+/* ═══════════════════════════════════════
+   DOWNLOAD + PRINT
+═══════════════════════════════════════ */
+function loadHtml2Canvas(cb){
+  if(window.html2canvas)return cb();
+  var s=document.createElement('script');
+  s.src='https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js';
+  s.onload=cb;
+  document.head.appendChild(s);
+}
+
+document.getElementById('dlbtn').addEventListener('click',function(){
+  var el=document.getElementById('letter-el');
   if(!el){alert('Generate the letter first.');return;}
-  const btn=document.getElementById('dlbtn');
-  btn.innerHTML='⏳ Preparing…'; btn.disabled=true;
-  html2canvas(el,{scale:2,useCORS:true,backgroundColor:'#ffffff',logging:false,width:el.scrollWidth,height:el.scrollHeight}).then(canvas=>{
-    let q=0.85, dataUrl=canvas.toDataURL('image/jpeg',q);
-    while(dataUrl.length*0.75>200000&&q>0.4){q-=0.05;dataUrl=canvas.toDataURL('image/jpeg',q);}
-    const dom=v('dom').replace(/[^a-z0-9.\-]/gi,'')||'comnp-cover-letter';
-    const a=document.createElement('a');a.href=dataUrl;a.download=`cover-letter-${dom}.jpg`;a.click();
-    btn.innerHTML=`<svg fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" style="width:13px;height:13px"><path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3"/></svg> Download JPEG`;
-    btn.disabled=false;
-  }).catch(()=>{btn.innerHTML='Error — try again';btn.disabled=false;});
+  var btn=document.getElementById('dlbtn');
+  btn.textContent='⏳ Preparing…';btn.disabled=true;
+  loadHtml2Canvas(function(){
+    html2canvas(el,{scale:2,useCORS:true,backgroundColor:'#ffffff',logging:false,width:el.scrollWidth,height:el.scrollHeight}).then(function(canvas){
+      var q=0.88,dataUrl=canvas.toDataURL('image/jpeg',q);
+      while(dataUrl.length*0.75>200000&&q>0.4){q-=0.05;dataUrl=canvas.toDataURL('image/jpeg',q);}
+      var dom=(v('dom')||'comnp-cover-letter').replace(/[^a-z0-9.\-]/gi,'');
+      var a=document.createElement('a');a.href=dataUrl;a.download='cover-letter-'+dom+'.jpg';a.click();
+      btn.innerHTML='<svg fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" style="width:13px;height:13px;flex-shrink:0"><path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3"/></svg> Download JPEG';
+      btn.disabled=false;
+    }).catch(function(){btn.textContent='Error — try again';btn.disabled=false;});
+  });
+});
+
+window.doPrint=function(which){
+  var el=document.getElementById(which==='letter'?'letter-el':'cert-el');
+  if(!el){alert('Generate '+(which==='letter'?'the letter':'the certificate')+' first.');return;}
+  var w=window.open('','_blank','width=900,height=700');
+  w.document.write('<!DOCTYPE html><html><head><title>Nepal Tools — Print</title>');
+  w.document.write('<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&display=swap" rel="stylesheet">');
+  w.document.write('<style>');
+  w.document.write('*{box-sizing:border-box;margin:0;padding:0}');
+  w.document.write('body{background:#fff;display:flex;align-items:center;justify-content:center;min-height:100vh;font-family:Times New Roman,serif}');
+  w.document.write('@page{margin:10mm;size:A4 landscape}');
+  w.document.write('</style>');
+  // Copy all styles from main page
+  Array.from(document.styleSheets).forEach(function(ss){
+    try{
+      var rules=Array.from(ss.cssRules||[]).map(function(r){return r.cssText;}).join('\n');
+      w.document.write('<style>'+rules+'</style>');
+    }catch(e){}
+  });
+  w.document.write('</head><body>');
+  w.document.write(el.outerHTML);
+  w.document.write('</body></html>');
+  w.document.close();
+  w.onload=function(){
+    setTimeout(function(){w.focus();w.print();},400);
+  };
+};
+
+/* ═══════════════════════════════════════
+   CERTIFICATE GENERATOR
+═══════════════════════════════════════ */
+var certType='achievement';
+
+window.selectCertType=function(el,type){
+  document.querySelectorAll('.cert-type-btn').forEach(function(b){b.classList.remove('active');});
+  el.classList.add('active');
+  certType=type;
+};
+
+var certTitles={
+  achievement:{main:'Certificate',sub:'of Achievement'},
+  participation:{main:'Certificate',sub:'of Participation'},
+  completion:{main:'Certificate',sub:'of Completion'},
+  appreciation:{main:'Certificate',sub:'of Appreciation'}
+};
+var certVerbs={
+  achievement:'has demonstrated outstanding excellence by achieving',
+  participation:'has successfully participated in',
+  completion:'has successfully completed',
+  appreciation:'is hereby recognized and appreciated for outstanding contribution to'
+};
+
+function validateCert(){
+  var errs=[];
+  if(!v('cert-name'))errs.push('Recipient\'s name is required.');
+  if(!v('cert-org'))errs.push('Issuing organization is required.');
+  if(!v('cert-event'))errs.push('Event / Course name is required.');
+  if(!v('cert-desc'))errs.push('Achievement description is required.');
+  return errs;
 }
 
-/* ══════════════ NEB GPA ══════════════ */
-document.querySelectorAll('input[name="stream"]').forEach(r=>{
-  r.addEventListener('change',()=>{
-    const isMgmt=r.value==='management'&&r.checked;
+document.getElementById('gen-cert-btn').addEventListener('click',function(){
+  clearErr('cert-err-msg');
+  var errs=validateCert();
+  if(errs.length){showErr('cert-err-msg',errs.join(' '));return;}
+  buildCert();
+});
+
+function buildCert(){
+  var name=esc(v('cert-name'));
+  var org=esc(v('cert-org'));
+  var event=esc(v('cert-event'));
+  var desc=esc(v('cert-desc'));
+  var date=esc(v('cert-date')||fmtDate());
+  var sign1=esc(v('cert-sign1')||'Authorized Person');
+  var sign2=esc(v('cert-sign2')||'');
+  var role1=esc(v('cert-role1')||'Director');
+  var role2=esc(v('cert-role2')||'');
+  var ct=certTitles[certType];
+  var verb=certVerbs[certType];
+  var serial='NT-CERT-'+new Date().getFullYear()+'-'+(Math.floor(Math.random()*90000)+10000);
+
+  document.getElementById('cert-pshell').innerHTML='<div id="cert-el">'
+    +'<div class="cert-bg-pattern"></div>'
+    +'<div class="cert-outer-border"></div>'
+    +'<div class="cert-inner-border"></div>'
+    +'<div class="cert-corner tl"></div><div class="cert-corner tr"></div><div class="cert-corner bl"></div><div class="cert-corner br"></div>'
+    +'<div class="cert-body">'
+    +'<div class="cert-nepal-flag">'
+    +'<svg width="24" height="30" viewBox="0 0 22 28" fill="none"><polygon points="0,0 22,7 10,14 22,28 0,28" fill="#003087"/><polygon points="1,1 20,7 9,13 20,26 1,26" fill="#DC143C"/><circle cx="8" cy="9" r="2.2" fill="white" opacity=".9"/><path d="M4.5,20 L8,16.5 L11.5,20" stroke="white" stroke-width="1.1" fill="none" opacity=".9"/></svg>'
+    +'</div>'
+    +'<div class="cert-org">'+org+'</div>'
+    +'<div class="cert-header-line"></div>'
+    +'<div style="font-family:\'Cinzel\',serif;font-size:11px;color:#888;letter-spacing:.22em;text-transform:uppercase;margin-bottom:4px">This is to certify that</div>'
+    +'<div class="cert-title-main">'+ct.main+'</div>'
+    +'<div class="cert-title-sub">'+ct.sub+'</div>'
+    +'<div class="cert-divider"><div class="cert-divider-line"></div><div class="cert-divider-ornament">❧</div><div class="cert-divider-line r"></div></div>'
+    +'<div class="cert-presented">Proudly presented to</div>'
+    +'<div class="cert-name">'+name+'</div>'
+    +'<div class="cert-name-line"></div>'
+    +'<div class="cert-desc">This certificate is awarded in recognition that <strong>'+name+'</strong> '+verb+' <strong>'+event+'</strong> — '+desc+'.</div>'
+    +'<div class="cert-issue-row">'
+    +'<div class="cert-issue-item"><span class="cert-issue-label">Date</span><span class="cert-issue-val">'+date+'</span></div>'
+    +'<div class="cert-issue-item"><span class="cert-issue-label">Certificate No.</span><span class="cert-issue-val">'+serial+'</span></div>'
+    +'<div class="cert-issue-item"><span class="cert-issue-label">Issued by</span><span class="cert-issue-val">'+org+'</span></div>'
+    +'</div>'
+    +'<div class="cert-sig-row">'
+    +(sign1?'<div class="cert-sig-block"><div class="cert-sig-line-draw"></div><div class="cert-sig-name-sm">'+sign1+'</div><div class="cert-sig-role">'+role1+'</div></div>':'')
+    +'<div class="cert-sig-block"><div class="cert-seal"><div class="cert-seal-inner">'+org.substring(0,3).toUpperCase()+'<br>SEAL</div></div></div>'
+    +(sign2?'<div class="cert-sig-block"><div class="cert-sig-line-draw"></div><div class="cert-sig-name-sm">'+sign2+'</div><div class="cert-sig-role">'+role2+'</div></div>':'')
+    +'</div>'
+    +'<div class="cert-serial">'+serial+' &nbsp;·&nbsp; Nepal Tools Generator &nbsp;·&nbsp; nepaltools.com.np</div>'
+    +'</div>'
+    +'</div>';
+
+  document.getElementById('cert-printbtn').style.display='flex';
+  document.getElementById('cert-dlbtn').style.display='flex';
+}
+
+document.getElementById('cert-dlbtn').addEventListener('click',function(){
+  var el=document.getElementById('cert-el');
+  if(!el){alert('Generate the certificate first.');return;}
+  var btn=document.getElementById('cert-dlbtn');
+  btn.textContent='⏳ Preparing…';btn.disabled=true;
+  loadHtml2Canvas(function(){
+    html2canvas(el,{scale:2,useCORS:true,backgroundColor:'#ffffff',logging:false}).then(function(canvas){
+      var dataUrl=canvas.toDataURL('image/jpeg',0.92);
+      var name=(v('cert-name')||'certificate').replace(/[^a-z0-9\-]/gi,'-').toLowerCase();
+      var a=document.createElement('a');a.href=dataUrl;a.download='certificate-'+name+'.jpg';a.click();
+      btn.innerHTML='<svg fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" style="width:13px;height:13px"><path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3"/></svg> Download';
+      btn.disabled=false;
+    }).catch(function(){btn.textContent='Error — try again';btn.disabled=false;});
+  });
+});
+
+/* ═══════════════════════════════════════
+   NEB GPA
+═══════════════════════════════════════ */
+document.querySelectorAll('input[name="stream"]').forEach(function(r){
+  r.addEventListener('change',function(){
+    var isMgmt=r.value==='management'&&r.checked;
     document.getElementById('sci-panel').style.display=isMgmt?'none':'block';
     document.getElementById('mgmt-panel').style.display=isMgmt?'block':'none';
     document.getElementById('result-card').classList.remove('show');
   });
 });
 
-const GRADES=[
+var GRADES=[
   {min:90,gr:'A+',gp:4.0,cls:'grade-Ap',desc:'Outstanding'},
   {min:80,gr:'A', gp:3.6,cls:'grade-A', desc:'Excellent'},
   {min:70,gr:'B+',gp:3.2,cls:'grade-Bp',desc:'Very Good'},
@@ -784,134 +1230,141 @@ const GRADES=[
   {min:0, gr:'NG',gp:0.0,cls:'grade-NG',desc:'Non-Graded'}
 ];
 
-function getGrade(pct){return GRADES.find(g=>pct>=g.min)||GRADES[GRADES.length-1];}
+function getGrade(pct){return GRADES.find(function(g){return pct>=g.min;})||GRADES[GRADES.length-1];}
 
-function calcRow(id, tMax, pMax, credit){
-  const tEl=document.getElementById(id+'-t');
-  const pEl=document.getElementById(id+'-p');
-  const pctEl=document.getElementById(id+'-pct');
-  const grEl=document.getElementById(id+'-gr');
+function gpToGrade(gp){return GRADES.find(function(g){return gp>=g.gp;})||GRADES[GRADES.length-1];}
+
+window.calcRow=function(id,tMax,pMax,credit){
+  var tEl=document.getElementById(id+'-t');
+  var pEl=document.getElementById(id+'-p');
+  var pctEl=document.getElementById(id+'-pct');
+  var grEl=document.getElementById(id+'-gr');
   if(!tEl)return;
-  const t=parseFloat(tEl.value)||0;
-  const p=pMax>0?(parseFloat(pEl?.value)||0):0;
-  let pct;
+  // Clamp to valid range
+  var t=Math.min(Math.max(parseFloat(tEl.value)||0,0),tMax);
+  var p=pMax>0?Math.min(Math.max(parseFloat(pEl?pEl.value:0)||0,0),pMax):0;
+  var pct;
   if(pMax===0){pct=t;}
   else{pct=(t/tMax)*75+(p/pMax)*25;}
   pct=Math.min(100,Math.max(0,pct));
-  const g=getGrade(pct);
+  var g=getGrade(pct);
   pctEl.textContent=pct.toFixed(1)+'%';
   grEl.textContent=g.gr;
   grEl.className='neb-grade-cell '+g.cls;
-}
+};
 
-// Bio/CS toggle
-let bioIsCS=false;
-function toggleBioCS(){
+var bioIsCS=false;
+window.toggleBioCS=function(){
   bioIsCS=document.getElementById('bio-cs-toggle').checked;
-  const lbl=document.getElementById('bio-cs-label');
-  const tp=document.getElementById('bio-t');
-  const pp=document.getElementById('bio-p');
+  var lbl=document.getElementById('bio-cs-label');
+  var tp=document.getElementById('bio-t');
+  var pp=document.getElementById('bio-p');
   if(bioIsCS){
     lbl.innerHTML='Computer Science <small>Credit: 5 | Theory 50, Prac 50</small>';
-    tp.max=50; tp.placeholder='0–50';
-    pp.max=50; pp.placeholder='0–50';
+    tp.max=50;tp.placeholder='0–50';tp.setAttribute('aria-label','Computer Science theory marks out of 50');
+    pp.max=50;pp.placeholder='0–50';pp.setAttribute('aria-label','Computer Science practical marks out of 50');
   } else {
     lbl.innerHTML='Biology <small>Credit: 5 | Theory 75, Prac 25</small>';
-    tp.max=75; tp.placeholder='0–75';
-    pp.max=25; pp.placeholder='0–25';
+    tp.max=75;tp.placeholder='0–75';tp.setAttribute('aria-label','Biology theory marks out of 75');
+    pp.max=25;pp.placeholder='0–25';pp.setAttribute('aria-label','Biology practical marks out of 25');
   }
   calcBioCS();
-}
-function calcBioCS(){
+};
+window.calcBioCS=function(){
   if(bioIsCS){
-    const t=parseFloat(document.getElementById('bio-t').value)||0;
-    const p=parseFloat(document.getElementById('bio-p').value)||0;
-    const pct=((t/50)*50)+((p/50)*50);
-    const g=getGrade(Math.min(100,pct));
-    document.getElementById('bio-pct').textContent=Math.min(100,pct).toFixed(1)+'%';
+    var t=Math.min(Math.max(parseFloat(document.getElementById('bio-t').value)||0,0),50);
+    var p=Math.min(Math.max(parseFloat(document.getElementById('bio-p').value)||0,0),50);
+    var pct=Math.min(100,(t/50)*50+(p/50)*50);
+    var g=getGrade(pct);
+    document.getElementById('bio-pct').textContent=pct.toFixed(1)+'%';
     document.getElementById('bio-gr').textContent=g.gr;
     document.getElementById('bio-gr').className='neb-grade-cell '+g.cls;
   } else {
-    calcRow('bio',75,25,5);
+    window.calcRow('bio',75,25,5);
   }
-}
+};
 
-function updateOptLabel(){
-  document.getElementById('opt-label').textContent='Credit: 5 | Theory only';
-}
+document.getElementById('sci-calc-btn').addEventListener('click',function(){calcGPA('science');});
+document.getElementById('mgmt-calc-btn').addEventListener('click',function(){calcGPA('management');});
 
 function calcGPA(stream){
-  let subjects=[];
+  var subjects=[];
   if(stream==='science'){
-    const bioT=parseFloat(document.getElementById('bio-t').value)||0;
-    const bioP=parseFloat(document.getElementById('bio-p').value)||0;
-    let bioPct;
-    if(bioIsCS){bioPct=((bioT/50)*50)+((bioP/50)*50);}
-    else{bioPct=(bioT/75)*75+(bioP/25)*25;}
-    bioPct=Math.min(100,bioPct);
-    const phyT=parseFloat(document.getElementById('phy-t').value)||0;
-    const phyP=parseFloat(document.getElementById('phy-p').value)||0;
-    const chemT=parseFloat(document.getElementById('chem-t').value)||0;
-    const chemP=parseFloat(document.getElementById('chem-p').value)||0;
-    const mathT=parseFloat(document.getElementById('math-t').value)||0;
-    const engT=parseFloat(document.getElementById('eng-t').value)||0;
-    const engP=parseFloat(document.getElementById('eng-p').value)||0;
-    const nepT=parseFloat(document.getElementById('nep-t').value)||0;
-    const nepP=parseFloat(document.getElementById('nep-p').value)||0;
+    var bioT=Math.min(Math.max(parseFloat(document.getElementById('bio-t').value)||0,0),bioIsCS?50:75);
+    var bioP=Math.min(Math.max(parseFloat(document.getElementById('bio-p').value)||0,0),bioIsCS?50:25);
+    var bioPct=bioIsCS?Math.min(100,(bioT/50)*50+(bioP/50)*50):Math.min(100,(bioT/75)*75+(bioP/25)*25);
     subjects=[
-      {name:'Physics',           pct:Math.min(100,(phyT/75)*75+(phyP/25)*25), cr:5},
-      {name:'Chemistry',         pct:Math.min(100,(chemT/75)*75+(chemP/25)*25),cr:5},
-      {name:bioIsCS?'Computer Science':'Biology', pct:bioPct, cr:5},
-      {name:'Mathematics',       pct:Math.min(100,mathT),                       cr:5},
-      {name:'English',           pct:Math.min(100,(engT/75)*75+(engP/25)*25),  cr:4},
-      {name:'Nepali',            pct:Math.min(100,(nepT/75)*75+(nepP/25)*25),  cr:4},
+      {name:'Physics',   pct:Math.min(100,(Math.min(parseFloat(document.getElementById('phy-t').value)||0,75)/75)*75+(Math.min(parseFloat(document.getElementById('phy-p').value)||0,25)/25)*25),cr:5},
+      {name:'Chemistry', pct:Math.min(100,(Math.min(parseFloat(document.getElementById('chem-t').value)||0,75)/75)*75+(Math.min(parseFloat(document.getElementById('chem-p').value)||0,25)/25)*25),cr:5},
+      {name:bioIsCS?'Computer Science':'Biology',pct:bioPct,cr:5},
+      {name:'Mathematics',pct:Math.min(100,Math.max(parseFloat(document.getElementById('math-t').value)||0,0)),cr:5},
+      {name:'English',   pct:Math.min(100,(Math.min(parseFloat(document.getElementById('eng-t').value)||0,75)/75)*75+(Math.min(parseFloat(document.getElementById('eng-p').value)||0,25)/25)*25),cr:4},
+      {name:'Nepali',    pct:Math.min(100,(Math.min(parseFloat(document.getElementById('nep-t').value)||0,75)/75)*75+(Math.min(parseFloat(document.getElementById('nep-p').value)||0,25)/25)*25),cr:4}
     ];
   } else {
-    const optName=['Optional Mathematics','Hotel Management','Marketing'][document.getElementById('opt-select').selectedIndex];
+    var optIdx=document.getElementById('opt-select').selectedIndex;
+    var optName=['Optional Mathematics','Hotel Management','Marketing'][optIdx];
     subjects=[
-      {name:'Accountancy',   pct:Math.min(100,parseFloat(document.getElementById('acc-t').value)||0),  cr:5},
-      {name:'Economics',     pct:Math.min(100,parseFloat(document.getElementById('eco-t').value)||0),  cr:5},
-      {name:'Business Studies',pct:Math.min(100,parseFloat(document.getElementById('bst-t').value)||0),cr:5},
-      {name:optName,         pct:Math.min(100,parseFloat(document.getElementById('opt-t').value)||0),  cr:5},
-      {name:'English',       pct:Math.min(100,parseFloat(document.getElementById('meng-t').value)||0), cr:4},
-      {name:'Nepali',        pct:Math.min(100,parseFloat(document.getElementById('mnep-t').value)||0), cr:4},
+      {name:'Accountancy',    pct:Math.min(100,Math.max(parseFloat(document.getElementById('acc-t').value)||0,0)),cr:5},
+      {name:'Economics',      pct:Math.min(100,Math.max(parseFloat(document.getElementById('eco-t').value)||0,0)),cr:5},
+      {name:'Business Studies',pct:Math.min(100,Math.max(parseFloat(document.getElementById('bst-t').value)||0,0)),cr:5},
+      {name:optName,           pct:Math.min(100,Math.max(parseFloat(document.getElementById('opt-t').value)||0,0)),cr:5},
+      {name:'English',         pct:Math.min(100,Math.max(parseFloat(document.getElementById('meng-t').value)||0,0)),cr:4},
+      {name:'Nepali',          pct:Math.min(100,Math.max(parseFloat(document.getElementById('mnep-t').value)||0,0)),cr:4}
     ];
   }
 
-  let totalCr=0, totalGP=0;
-  let rows='<tr><th>Subject</th><th>%</th><th>Grade</th><th>Credits</th><th>Grade Pts</th></tr>';
-  subjects.forEach(s=>{
-    const g=getGrade(s.pct);
-    const contrib=(s.cr*g.gp);
-    totalCr+=s.cr; totalGP+=contrib;
-    rows+=`<tr><td>${s.name}</td><td>${s.pct.toFixed(1)}%</td><td style="font-weight:600">${g.gr}</td><td>${s.cr}</td><td>${contrib.toFixed(2)}</td></tr>`;
+  var totalCr=0,totalGP=0;
+  var rows='<tr><th>Subject</th><th>%</th><th>Grade</th><th>Credits</th><th>Grade Pts</th></tr>';
+  subjects.forEach(function(s){
+    var g=getGrade(s.pct);
+    var contrib=s.cr*g.gp;
+    totalCr+=s.cr;totalGP+=contrib;
+    rows+='<tr><td>'+s.name+'</td><td>'+s.pct.toFixed(1)+'%</td><td style="font-weight:600">'+g.gr+'</td><td>'+s.cr+'</td><td>'+contrib.toFixed(2)+'</td></tr>';
   });
-  const gpa=totalCr>0?totalGP/totalCr:0;
-  const finalG=getGrade(gpa>=4?100:gpa>=3.6?80:gpa>=3.2?70:gpa>=2.8?60:gpa>=2.4?50:gpa>=2.0?40:gpa>=1.6?30:0);
+
+  var gpa=totalCr>0?totalGP/totalCr:0;
+  var finalG=gpToGrade(gpa);
 
   document.getElementById('res-gpa').textContent=gpa.toFixed(2);
   document.getElementById('res-grade').textContent=finalG.gr;
   document.getElementById('res-desc').textContent=finalG.desc;
   document.getElementById('res-cr').textContent=totalCr;
   document.getElementById('res-table').innerHTML=rows;
-  document.getElementById('res-note').textContent=`GPA Formula: Σ(Credit Hours × Grade Point) ÷ Total Credit Hours = ${totalGP.toFixed(2)} ÷ ${totalCr} = ${gpa.toFixed(2)}. Pass condition: minimum D grade in all subjects; NG in any subject means overall NG status.`;
-  document.getElementById('result-card').classList.add('show');
-  document.getElementById('result-card').scrollIntoView({behavior:'smooth',block:'nearest'});
+  document.getElementById('res-note').textContent='GPA = \u03A3(Credit Hours \u00D7 Grade Point) \u00F7 Total Credit Hours = '+totalGP.toFixed(2)+' \u00F7 '+totalCr+' = '+gpa.toFixed(2)+'. Pass condition: minimum D grade in all subjects. NG in any subject may result in overall NG status.';
+  var rc=document.getElementById('result-card');
+  rc.classList.add('show');
+  rc.scrollIntoView({behavior:'smooth',block:'nearest'});
 }
 
-function resetGPA(){
+document.getElementById('reset-gpa-btn').addEventListener('click',function(){
+  bioIsCS=false;
+  document.getElementById('bio-cs-toggle').checked=false;
+  window.toggleBioCS();
   document.getElementById('result-card').classList.remove('show');
-  document.querySelectorAll('.neb-input[type="number"]').forEach(i=>{if(!i.disabled)i.value='';});
-  document.querySelectorAll('.neb-grade-cell').forEach(c=>{c.textContent='—';c.className='neb-grade-cell';});
-  document.querySelectorAll('[id$="-pct"]').forEach(c=>{c.textContent='—';});
-}
+  document.querySelectorAll('.neb-input[type="number"]').forEach(function(i){if(!i.disabled)i.value='';});
+  document.querySelectorAll('.neb-grade-cell').forEach(function(c){c.textContent='—';c.className='neb-grade-cell';});
+  document.querySelectorAll('[id$="-pct"]').forEach(function(c){c.textContent='—';});
+});
 
-/* ══════════════ FAQ ══════════════ */
-function tog(el){
-  const a=el.nextElementSibling;
-  a.classList.toggle('open');
-  el.querySelector('span').textContent=a.classList.contains('open')?'−':'+';
-}
+/* ═══════════════════════════════════════
+   FAQ TOGGLE
+═══════════════════════════════════════ */
+window.tog=function(el){
+  var a=el.nextElementSibling;
+  var open=a.classList.toggle('open');
+  el.querySelector('span').textContent=open?'−':'+';
+  el.setAttribute('aria-expanded',open?'true':'false');
+};
+
+// Keyboard support for FAQ
+document.querySelectorAll('.faq-q').forEach(function(q){
+  q.addEventListener('keydown',function(e){
+    if(e.key==='Enter'||e.key===' '){e.preventDefault();tog(q);}
+  });
+});
+
+})();
 </script>
 </body>
 </html>
